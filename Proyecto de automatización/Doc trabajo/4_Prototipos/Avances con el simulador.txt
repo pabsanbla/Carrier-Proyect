@@ -1,0 +1,11 @@
+Avances con el simulador:
+- Manejo general del programa en los ejemplos.
+- Incorporación el uso de variables de registro y su muestra en el simulador mediante el uso del bloque de función. (IL)
+- Manejo de contadores y timers y su incorporación al programa.
+- Manejo de sensores y actuadores analógicos.
+- Uso de grafcet para programar:
+-- Creación de un programa maestro grafcet y su subprogram de transiciones
+-- Compartimentalización del problema en funciones por estado en ladder
+-- Separación de las diferentes partes del problema en diferentes POUs, siendo el del grafcet el principal
+-- Manejo de variables que gestionan los estados en el registro (%Xi, i = número entero)
+-- Uso de múltiples grafcets simultáneos
