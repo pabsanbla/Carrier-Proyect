@@ -3,7 +3,7 @@
   <ProjectVersion>2.7.0.0</ProjectVersion>
   <ManagementLevel>FunctLevelMan18_0</ManagementLevel>
   <Name>Prototype 1 Mod</Name>
-  <FullName>C:\Users\usuario\Documents\TFG\PLCs\Ejemplos\Prototype 1 Mod.smbp</FullName>
+  <FullName>C:\Users\usuario\Documents\Carrier-Proyect\PLC programs\Prototypes\Prototype 1 Mod.smbp</FullName>
   <CurrentCultureName>es-ES</CurrentCultureName>
   <SoftwareConfiguration>
     <Pous>
@@ -12,7 +12,7 @@
         <SectionNumber>0</SectionNumber>
         <Elements>
           <GrafcetNodeStep>
-            <Id>fb5dda38-a303-497d-a4cd-4e7e9eeadfbf</Id>
+            <Id>e1564edb-914f-48ca-b894-dac4f43a9e10</Id>
             <Row>0</Row>
             <Column>2</Column>
             <IsInitialStep>true</IsInitialStep>
@@ -22,11 +22,11 @@
               <Rungs />
               <StepNumber>1</StepNumber>
             </StepPou>
-            <From>565109a3-5743-4a00-a99a-000f92d33473</From>
-            <To>6bfebd97-84d8-4d9e-af9c-b94692895bda</To>
+            <From>c5db9c4b-e84b-42c0-b9bb-87586186e1bc</From>
+            <To>f8bea95d-aaf5-4c58-bf43-f2b197c5b75b</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>0dab7b4e-22bc-4c66-9fa0-c3d8e6be1045</Id>
+            <Id>5a1d29d1-2b2b-4284-abc5-d6f9edb0e644</Id>
             <Row>1</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -36,11 +36,11 @@
               <Rungs />
               <StepNumber>2</StepNumber>
             </StepPou>
-            <From>0a6933c2-c913-4faa-b5a5-5e14acf7c7db</From>
-            <To>c71041fa-0d79-4650-aab7-62f6d2e8929e</To>
+            <From>48dfe1d3-9305-4d3e-91e7-f7f004eae03b</From>
+            <To>bba71645-fa68-45fd-aa92-1d53c0a3843d</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>6bfebd97-84d8-4d9e-af9c-b94692895bda</Id>
+            <Id>f8bea95d-aaf5-4c58-bf43-f2b197c5b75b</Id>
             <Row>0</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -149,11 +149,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>fb5dda38-a303-497d-a4cd-4e7e9eeadfbf</From>
-            <To>0a6933c2-c913-4faa-b5a5-5e14acf7c7db</To>
+            <From>e1564edb-914f-48ca-b894-dac4f43a9e10</From>
+            <To>48dfe1d3-9305-4d3e-91e7-f7f004eae03b</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>07da4de5-00d0-459f-8db3-995b599a64ca</Id>
+            <Id>a7eb9cc1-42e9-4bba-9681-8e2ee74cd8a0</Id>
             <Row>1</Row>
             <Column>3</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -163,17 +163,17 @@
               <Rungs />
               <StepNumber>3</StepNumber>
             </StepPou>
-            <From>0a6933c2-c913-4faa-b5a5-5e14acf7c7db</From>
-            <To>879b85bd-db83-4553-ba30-7c7faff35228</To>
+            <From>48dfe1d3-9305-4d3e-91e7-f7f004eae03b</From>
+            <To>fe744d14-7c3b-485b-9d53-a0fd6867c7d3</To>
           </GrafcetNodeStep>
           <GrafcetAndFork>
-            <Id>0a6933c2-c913-4faa-b5a5-5e14acf7c7db</Id>
-            <To>0dab7b4e-22bc-4c66-9fa0-c3d8e6be1045</To>
-            <To>07da4de5-00d0-459f-8db3-995b599a64ca</To>
-            <From>6bfebd97-84d8-4d9e-af9c-b94692895bda</From>
+            <Id>48dfe1d3-9305-4d3e-91e7-f7f004eae03b</Id>
+            <To>5a1d29d1-2b2b-4284-abc5-d6f9edb0e644</To>
+            <To>a7eb9cc1-42e9-4bba-9681-8e2ee74cd8a0</To>
+            <From>f8bea95d-aaf5-4c58-bf43-f2b197c5b75b</From>
           </GrafcetAndFork>
           <GrafcetNodeStep>
-            <Id>40ecf814-e3c3-4047-aacb-afce8c3bdcff</Id>
+            <Id>0f92b98b-6527-4262-bb93-bcb5dfffd371</Id>
             <Row>2</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -183,11 +183,11 @@
               <Rungs />
               <StepNumber>4</StepNumber>
             </StepPou>
-            <From>c71041fa-0d79-4650-aab7-62f6d2e8929e</From>
-            <To>879b85bd-db83-4553-ba30-7c7faff35228</To>
+            <From>bba71645-fa68-45fd-aa92-1d53c0a3843d</From>
+            <To>fe744d14-7c3b-485b-9d53-a0fd6867c7d3</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>c71041fa-0d79-4650-aab7-62f6d2e8929e</Id>
+            <Id>bba71645-fa68-45fd-aa92-1d53c0a3843d</Id>
             <Row>1</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -282,11 +282,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>0dab7b4e-22bc-4c66-9fa0-c3d8e6be1045</From>
-            <To>40ecf814-e3c3-4047-aacb-afce8c3bdcff</To>
+            <From>5a1d29d1-2b2b-4284-abc5-d6f9edb0e644</From>
+            <To>0f92b98b-6527-4262-bb93-bcb5dfffd371</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>4d09e4c8-9bf4-436c-9421-70da9577636a</Id>
+            <Id>5dd7b72e-b208-4a8c-97ee-d90af933eed2</Id>
             <Row>3</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -296,11 +296,11 @@
               <Rungs />
               <StepNumber>5</StepNumber>
             </StepPou>
-            <From>1383d94f-ebce-4a4a-8f61-20c71309a644</From>
-            <To>4303ecdb-bee9-46a9-9c10-870f3602a8cd</To>
+            <From>751ba331-4e79-4aee-acb0-ad4ac7f4923a</From>
+            <To>c144628f-72bf-44b4-b633-d2a7a85411aa</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>1383d94f-ebce-4a4a-8f61-20c71309a644</Id>
+            <Id>751ba331-4e79-4aee-acb0-ad4ac7f4923a</Id>
             <Row>2</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -398,17 +398,17 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>879b85bd-db83-4553-ba30-7c7faff35228</From>
-            <To>4d09e4c8-9bf4-436c-9421-70da9577636a</To>
+            <From>fe744d14-7c3b-485b-9d53-a0fd6867c7d3</From>
+            <To>5dd7b72e-b208-4a8c-97ee-d90af933eed2</To>
           </GrafcetTransition>
           <GrafcetAndJunction>
-            <Id>879b85bd-db83-4553-ba30-7c7faff35228</Id>
-            <From>40ecf814-e3c3-4047-aacb-afce8c3bdcff</From>
-            <From>07da4de5-00d0-459f-8db3-995b599a64ca</From>
-            <To>1383d94f-ebce-4a4a-8f61-20c71309a644</To>
+            <Id>fe744d14-7c3b-485b-9d53-a0fd6867c7d3</Id>
+            <From>0f92b98b-6527-4262-bb93-bcb5dfffd371</From>
+            <From>a7eb9cc1-42e9-4bba-9681-8e2ee74cd8a0</From>
+            <To>751ba331-4e79-4aee-acb0-ad4ac7f4923a</To>
           </GrafcetAndJunction>
           <GrafcetNodeStep>
-            <Id>09cd8e0e-d748-425d-8801-b89991324adb</Id>
+            <Id>cd859a69-f0c9-485c-9fc2-094b3c4201bb</Id>
             <Row>4</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -418,11 +418,11 @@
               <Rungs />
               <StepNumber>6</StepNumber>
             </StepPou>
-            <From>4303ecdb-bee9-46a9-9c10-870f3602a8cd</From>
-            <To>82f6fb4e-3e61-463c-ba02-f1dc54361a6d</To>
+            <From>c144628f-72bf-44b4-b633-d2a7a85411aa</From>
+            <To>f82834d8-4526-4550-b6dd-f6bc7ec369d4</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>4303ecdb-bee9-46a9-9c10-870f3602a8cd</Id>
+            <Id>c144628f-72bf-44b4-b633-d2a7a85411aa</Id>
             <Row>3</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -524,11 +524,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>4d09e4c8-9bf4-436c-9421-70da9577636a</From>
-            <To>09cd8e0e-d748-425d-8801-b89991324adb</To>
+            <From>5dd7b72e-b208-4a8c-97ee-d90af933eed2</From>
+            <To>cd859a69-f0c9-485c-9fc2-094b3c4201bb</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>6e1d487b-3659-4b44-a2b3-59e06eefd097</Id>
+            <Id>7ff518a8-f276-44ec-b6de-a76d4b6db7f5</Id>
             <Row>5</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -538,11 +538,11 @@
               <Rungs />
               <StepNumber>7</StepNumber>
             </StepPou>
-            <From>82f6fb4e-3e61-463c-ba02-f1dc54361a6d</From>
-            <To>54847a3f-32aa-43ea-80e6-e1aa7357a41d</To>
+            <From>f82834d8-4526-4550-b6dd-f6bc7ec369d4</From>
+            <To>89a60b5d-cee1-41dc-afc2-0acda5cd034e</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>82f6fb4e-3e61-463c-ba02-f1dc54361a6d</Id>
+            <Id>f82834d8-4526-4550-b6dd-f6bc7ec369d4</Id>
             <Row>4</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -640,11 +640,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>09cd8e0e-d748-425d-8801-b89991324adb</From>
-            <To>6e1d487b-3659-4b44-a2b3-59e06eefd097</To>
+            <From>cd859a69-f0c9-485c-9fc2-094b3c4201bb</From>
+            <To>7ff518a8-f276-44ec-b6de-a76d4b6db7f5</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>b55eed07-ebc6-43ae-b1ab-e4d60a37db6e</Id>
+            <Id>775a4d53-9a79-46b2-8a49-e27ff81581eb</Id>
             <Row>6</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -654,11 +654,11 @@
               <Rungs />
               <StepNumber>8</StepNumber>
             </StepPou>
-            <From>54847a3f-32aa-43ea-80e6-e1aa7357a41d</From>
-            <To>31e5ae7d-9596-488f-a539-8f07935e9415</To>
+            <From>89a60b5d-cee1-41dc-afc2-0acda5cd034e</From>
+            <To>31741b91-b96f-40e5-ae0a-e7d7d47ac828</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>54847a3f-32aa-43ea-80e6-e1aa7357a41d</Id>
+            <Id>89a60b5d-cee1-41dc-afc2-0acda5cd034e</Id>
             <Row>5</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -756,11 +756,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>6e1d487b-3659-4b44-a2b3-59e06eefd097</From>
-            <To>b55eed07-ebc6-43ae-b1ab-e4d60a37db6e</To>
+            <From>7ff518a8-f276-44ec-b6de-a76d4b6db7f5</From>
+            <To>775a4d53-9a79-46b2-8a49-e27ff81581eb</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>cb9a0bfd-2c1a-474b-909d-59e2683bd27d</Id>
+            <Id>16515903-1eef-4c84-82cc-f6b80c866c06</Id>
             <Row>7</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -770,11 +770,11 @@
               <Rungs />
               <StepNumber>9</StepNumber>
             </StepPou>
-            <From>31e5ae7d-9596-488f-a539-8f07935e9415</From>
-            <To>3c173920-2fd4-45d5-b03d-c443bbbefa3d</To>
+            <From>31741b91-b96f-40e5-ae0a-e7d7d47ac828</From>
+            <To>b36a905f-23bc-469a-b97b-40fdc1c7e03e</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>31e5ae7d-9596-488f-a539-8f07935e9415</Id>
+            <Id>31741b91-b96f-40e5-ae0a-e7d7d47ac828</Id>
             <Row>6</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -832,7 +832,7 @@
                     </LadderEntity>
                     <LadderEntity>
                       <ElementType>Comparison</ElementType>
-                      <ComparisonExpression>INT_TO_REAL( %MW2 ) / 100.0 &gt;= 4.7</ComparisonExpression>
+                      <ComparisonExpression>INT_TO_REAL( %MW2 ) / 100.0 &gt;= 2.9</ComparisonExpression>
                       <Row>0</Row>
                       <Column>0</Column>
                       <ChosenConnection>Left, Right</ChosenConnection>
@@ -853,7 +853,7 @@
                       <Comment />
                     </InstructionLineEntity>
                     <InstructionLineEntity>
-                      <InstructionLine>AND   [ INT_TO_REAL ( %MW2 ) / 100.0 &gt;= 4.7 ]</InstructionLine>
+                      <InstructionLine>AND   [ INT_TO_REAL ( %MW2 ) / 100.0 &gt;= 2.9 ]</InstructionLine>
                       <Comment />
                     </InstructionLineEntity>
                     <InstructionLineEntity>
@@ -872,11 +872,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>b55eed07-ebc6-43ae-b1ab-e4d60a37db6e</From>
-            <To>cb9a0bfd-2c1a-474b-909d-59e2683bd27d</To>
+            <From>775a4d53-9a79-46b2-8a49-e27ff81581eb</From>
+            <To>16515903-1eef-4c84-82cc-f6b80c866c06</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>180ce57c-3ee8-4147-85dc-807f91886719</Id>
+            <Id>6fa59381-c873-4b8d-88b5-27e2c6b071e0</Id>
             <Row>8</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -886,11 +886,11 @@
               <Rungs />
               <StepNumber>10</StepNumber>
             </StepPou>
-            <From>3c173920-2fd4-45d5-b03d-c443bbbefa3d</From>
-            <To>515fa7ae-6adf-482a-9c9e-1656137a7e40</To>
+            <From>b36a905f-23bc-469a-b97b-40fdc1c7e03e</From>
+            <To>6b40d3bb-982b-40c2-b0f6-7f4881e84af2</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>3c173920-2fd4-45d5-b03d-c443bbbefa3d</Id>
+            <Id>b36a905f-23bc-469a-b97b-40fdc1c7e03e</Id>
             <Row>7</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -985,11 +985,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>cb9a0bfd-2c1a-474b-909d-59e2683bd27d</From>
-            <To>180ce57c-3ee8-4147-85dc-807f91886719</To>
+            <From>16515903-1eef-4c84-82cc-f6b80c866c06</From>
+            <To>6fa59381-c873-4b8d-88b5-27e2c6b071e0</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>3d2bed76-74a4-46c5-989a-13797a37dfc0</Id>
+            <Id>60c603b8-94cb-4e74-b2d8-e10ab06f6588</Id>
             <Row>9</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -999,11 +999,11 @@
               <Rungs />
               <StepNumber>11</StepNumber>
             </StepPou>
-            <From>58bbdd56-e503-4a45-b5ec-91fa1e1318d6</From>
-            <To>7679203e-5ad0-4b47-85d8-84fa337021e4</To>
+            <From>ad78395b-4d59-4a75-ac96-ff9fdb190d42</From>
+            <To>d6d4b4cf-8ecd-4fef-8125-280c8eddcffc</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>515fa7ae-6adf-482a-9c9e-1656137a7e40</Id>
+            <Id>6b40d3bb-982b-40c2-b0f6-7f4881e84af2</Id>
             <Row>8</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1105,11 +1105,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>180ce57c-3ee8-4147-85dc-807f91886719</From>
-            <To>58bbdd56-e503-4a45-b5ec-91fa1e1318d6</To>
+            <From>6fa59381-c873-4b8d-88b5-27e2c6b071e0</From>
+            <To>ad78395b-4d59-4a75-ac96-ff9fdb190d42</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>c5704362-d221-43c1-9a1e-ae91c8fcaba3</Id>
+            <Id>d78cd354-9b4f-4f6c-813b-1d1ce2141b72</Id>
             <Row>10</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1119,11 +1119,11 @@
               <Rungs />
               <StepNumber>12</StepNumber>
             </StepPou>
-            <From>7679203e-5ad0-4b47-85d8-84fa337021e4</From>
-            <To>3e7cb9c7-e440-4ac2-ad7b-721baa0e47e9</To>
+            <From>d6d4b4cf-8ecd-4fef-8125-280c8eddcffc</From>
+            <To>10b4e8dd-b823-4cb6-8646-6dbfa9e9c4ae</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>8044bf06-ff88-438f-b3cd-26418db90c75</Id>
+            <Id>2fe037fb-8f15-434b-a08f-bfeda98cfebc</Id>
             <Row>11</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1133,11 +1133,11 @@
               <Rungs />
               <StepNumber>13</StepNumber>
             </StepPou>
-            <From>7e0300f7-7342-4f4e-b2df-ddbc51299c63</From>
-            <To>3142aad6-c2d7-465e-bfdb-b4df38bc38c7</To>
+            <From>6beaf68d-2401-4eac-88ff-d989bde4368e</From>
+            <To>3182ddd6-46c0-4cf9-9320-8a5d9e0b7c51</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>7679203e-5ad0-4b47-85d8-84fa337021e4</Id>
+            <Id>d6d4b4cf-8ecd-4fef-8125-280c8eddcffc</Id>
             <Row>9</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1239,11 +1239,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>3d2bed76-74a4-46c5-989a-13797a37dfc0</From>
-            <To>c5704362-d221-43c1-9a1e-ae91c8fcaba3</To>
+            <From>60c603b8-94cb-4e74-b2d8-e10ab06f6588</From>
+            <To>d78cd354-9b4f-4f6c-813b-1d1ce2141b72</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>019fbedd-2502-4980-90ad-689e727d9db0</Id>
+            <Id>1315ad3c-99aa-46fb-911e-bf74a1ff6f97</Id>
             <Row>12</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1253,11 +1253,11 @@
               <Rungs />
               <StepNumber>14</StepNumber>
             </StepPou>
-            <From>3142aad6-c2d7-465e-bfdb-b4df38bc38c7</From>
-            <To>29843d57-b3fb-4928-87c6-ff907efeff06</To>
+            <From>3182ddd6-46c0-4cf9-9320-8a5d9e0b7c51</From>
+            <To>b816a832-1e41-4bff-afc3-620c365f8524</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>bd53e036-4c56-4eb8-b846-d119314ecfab</Id>
+            <Id>3b7e8dd8-e2d2-4ccf-9d69-13ed6c98548e</Id>
             <Row>13</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1267,11 +1267,11 @@
               <Rungs />
               <StepNumber>15</StepNumber>
             </StepPou>
-            <From>29843d57-b3fb-4928-87c6-ff907efeff06</From>
-            <To>d00ab95f-504f-414d-a0b9-1e498c64dd8d</To>
+            <From>b816a832-1e41-4bff-afc3-620c365f8524</From>
+            <To>ef3aed6d-a257-4bc1-b420-584d33297435</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>99127277-7060-47f5-b97b-22d4ee55804f</Id>
+            <Id>6c022568-ff66-40ad-b80a-9dea390c873f</Id>
             <Row>14</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1281,11 +1281,11 @@
               <Rungs />
               <StepNumber>16</StepNumber>
             </StepPou>
-            <From>d00ab95f-504f-414d-a0b9-1e498c64dd8d</From>
-            <To>c455da9e-2ac1-466a-88fe-950df488cacf</To>
+            <From>ef3aed6d-a257-4bc1-b420-584d33297435</From>
+            <To>8956add7-9a3f-49e9-a83b-edb965af1fba</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>29843d57-b3fb-4928-87c6-ff907efeff06</Id>
+            <Id>b816a832-1e41-4bff-afc3-620c365f8524</Id>
             <Row>12</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1387,11 +1387,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>019fbedd-2502-4980-90ad-689e727d9db0</From>
-            <To>bd53e036-4c56-4eb8-b846-d119314ecfab</To>
+            <From>1315ad3c-99aa-46fb-911e-bf74a1ff6f97</From>
+            <To>3b7e8dd8-e2d2-4ccf-9d69-13ed6c98548e</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>d00ab95f-504f-414d-a0b9-1e498c64dd8d</Id>
+            <Id>ef3aed6d-a257-4bc1-b420-584d33297435</Id>
             <Row>13</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1489,11 +1489,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>bd53e036-4c56-4eb8-b846-d119314ecfab</From>
-            <To>99127277-7060-47f5-b97b-22d4ee55804f</To>
+            <From>3b7e8dd8-e2d2-4ccf-9d69-13ed6c98548e</From>
+            <To>6c022568-ff66-40ad-b80a-9dea390c873f</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>a737ce2e-57ac-4d86-bc88-451fbacf554d</Id>
+            <Id>14eb0605-e37f-473b-ac05-0f40cb062587</Id>
             <Row>15</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1503,11 +1503,11 @@
               <Rungs />
               <StepNumber>17</StepNumber>
             </StepPou>
-            <From>c455da9e-2ac1-466a-88fe-950df488cacf</From>
-            <To>886d47da-c188-4f7c-8975-95a5c3e154f9</To>
+            <From>8956add7-9a3f-49e9-a83b-edb965af1fba</From>
+            <To>02a4116b-c2e1-44f5-ae49-fcff6191208a</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>c455da9e-2ac1-466a-88fe-950df488cacf</Id>
+            <Id>8956add7-9a3f-49e9-a83b-edb965af1fba</Id>
             <Row>14</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1605,11 +1605,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>99127277-7060-47f5-b97b-22d4ee55804f</From>
-            <To>a737ce2e-57ac-4d86-bc88-451fbacf554d</To>
+            <From>6c022568-ff66-40ad-b80a-9dea390c873f</From>
+            <To>14eb0605-e37f-473b-ac05-0f40cb062587</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>a82701f2-7948-42ab-acb1-468a3467ad49</Id>
+            <Id>54cb2c71-efc1-4ea0-bbcf-65f0bd912c88</Id>
             <Row>16</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1619,11 +1619,11 @@
               <Rungs />
               <StepNumber>18</StepNumber>
             </StepPou>
-            <From>886d47da-c188-4f7c-8975-95a5c3e154f9</From>
-            <To>565109a3-5743-4a00-a99a-000f92d33473</To>
+            <From>02a4116b-c2e1-44f5-ae49-fcff6191208a</From>
+            <To>7adeab1f-4211-4317-81ee-9649c8468bfb</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>886d47da-c188-4f7c-8975-95a5c3e154f9</Id>
+            <Id>02a4116b-c2e1-44f5-ae49-fcff6191208a</Id>
             <Row>15</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1721,110 +1721,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>a737ce2e-57ac-4d86-bc88-451fbacf554d</From>
-            <To>a82701f2-7948-42ab-acb1-468a3467ad49</To>
+            <From>14eb0605-e37f-473b-ac05-0f40cb062587</From>
+            <To>54cb2c71-efc1-4ea0-bbcf-65f0bd912c88</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>565109a3-5743-4a00-a99a-000f92d33473</Id>
-            <Row>16</Row>
-            <Column>2</Column>
-            <ProgramOrganizationUnits>
-              <SectionNumber>0</SectionNumber>
-              <Rungs>
-                <RungEntity>
-                  <LadderElements>
-                    <LadderEntity>
-                      <ElementType>EndT</ElementType>
-                      <Row>0</Row>
-                      <Column>10</Column>
-                      <ChosenConnection>Left</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>9</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>8</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>7</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>6</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>5</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>4</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>3</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>2</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>NormalContact</ElementType>
-                      <Descriptor>%M9</Descriptor>
-                      <Comment />
-                      <Symbol>COUNTER_SENSOR</Symbol>
-                      <Row>0</Row>
-                      <Column>0</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                    <LadderEntity>
-                      <ElementType>Line</ElementType>
-                      <Row>0</Row>
-                      <Column>1</Column>
-                      <ChosenConnection>Left, Right</ChosenConnection>
-                    </LadderEntity>
-                  </LadderElements>
-                  <InstructionLines>
-                    <InstructionLineEntity>
-                      <InstructionLine>LD    %M9</InstructionLine>
-                      <Comment />
-                    </InstructionLineEntity>
-                    <InstructionLineEntity>
-                      <InstructionLine>ENDT</InstructionLine>
-                      <Comment />
-                    </InstructionLineEntity>
-                  </InstructionLines>
-                  <Name>Tr18</Name>
-                  <MainComment />
-                  <Label />
-                  <IsLadderSelected>true</IsLadderSelected>
-                </RungEntity>
-              </Rungs>
-            </ProgramOrganizationUnits>
-            <From>a82701f2-7948-42ab-acb1-468a3467ad49</From>
-            <To>fb5dda38-a303-497d-a4cd-4e7e9eeadfbf</To>
-          </GrafcetTransition>
-          <GrafcetTransition>
-            <Id>7e0300f7-7342-4f4e-b2df-ddbc51299c63</Id>
+            <Id>6beaf68d-2401-4eac-88ff-d989bde4368e</Id>
             <Row>10</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -1933,11 +1834,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>3e7cb9c7-e440-4ac2-ad7b-721baa0e47e9</From>
-            <To>8044bf06-ff88-438f-b3cd-26418db90c75</To>
+            <From>10b4e8dd-b823-4cb6-8646-6dbfa9e9c4ae</From>
+            <To>2fe037fb-8f15-434b-a08f-bfeda98cfebc</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>3142aad6-c2d7-465e-bfdb-b4df38bc38c7</Id>
+            <Id>3182ddd6-46c0-4cf9-9320-8a5d9e0b7c51</Id>
             <Row>11</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -2035,11 +1936,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>8044bf06-ff88-438f-b3cd-26418db90c75</From>
-            <To>019fbedd-2502-4980-90ad-689e727d9db0</To>
+            <From>2fe037fb-8f15-434b-a08f-bfeda98cfebc</From>
+            <To>1315ad3c-99aa-46fb-911e-bf74a1ff6f97</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>c4bb5c15-7229-44e4-9f1d-d21254acecb1</Id>
+            <Id>bfcc269c-2127-49a8-a7b2-2177d22b5742</Id>
             <Row>10</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -2148,26 +2049,245 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>3e7cb9c7-e440-4ac2-ad7b-721baa0e47e9</From>
-            <To>58bbdd56-e503-4a45-b5ec-91fa1e1318d6</To>
+            <From>10b4e8dd-b823-4cb6-8646-6dbfa9e9c4ae</From>
+            <To>ad78395b-4d59-4a75-ac96-ff9fdb190d42</To>
           </GrafcetTransition>
           <GrafcetOrFork>
-            <Id>3e7cb9c7-e440-4ac2-ad7b-721baa0e47e9</Id>
-            <To>7e0300f7-7342-4f4e-b2df-ddbc51299c63</To>
-            <To>c4bb5c15-7229-44e4-9f1d-d21254acecb1</To>
-            <From>c5704362-d221-43c1-9a1e-ae91c8fcaba3</From>
+            <Id>10b4e8dd-b823-4cb6-8646-6dbfa9e9c4ae</Id>
+            <To>6beaf68d-2401-4eac-88ff-d989bde4368e</To>
+            <To>bfcc269c-2127-49a8-a7b2-2177d22b5742</To>
+            <From>d78cd354-9b4f-4f6c-813b-1d1ce2141b72</From>
           </GrafcetOrFork>
           <GrafcetOrJunction>
-            <Id>58bbdd56-e503-4a45-b5ec-91fa1e1318d6</Id>
-            <From>515fa7ae-6adf-482a-9c9e-1656137a7e40</From>
-            <From>c4bb5c15-7229-44e4-9f1d-d21254acecb1</From>
-            <To>3d2bed76-74a4-46c5-989a-13797a37dfc0</To>
+            <Id>ad78395b-4d59-4a75-ac96-ff9fdb190d42</Id>
+            <From>6b40d3bb-982b-40c2-b0f6-7f4881e84af2</From>
+            <From>bfcc269c-2127-49a8-a7b2-2177d22b5742</From>
+            <To>60c603b8-94cb-4e74-b2d8-e10ab06f6588</To>
           </GrafcetOrJunction>
+          <GrafcetNodeStep>
+            <Id>4baf6be1-6a99-4a13-9c18-5ee489a2dce1</Id>
+            <Row>17</Row>
+            <Column>2</Column>
+            <IsInitialStep>false</IsInitialStep>
+            <StepPou>
+              <Name>Paso_19</Name>
+              <SectionNumber>19</SectionNumber>
+              <Rungs />
+              <StepNumber>19</StepNumber>
+            </StepPou>
+            <From>7adeab1f-4211-4317-81ee-9649c8468bfb</From>
+            <To>c5db9c4b-e84b-42c0-b9bb-87586186e1bc</To>
+          </GrafcetNodeStep>
+          <GrafcetTransition>
+            <Id>7adeab1f-4211-4317-81ee-9649c8468bfb</Id>
+            <Row>16</Row>
+            <Column>2</Column>
+            <ProgramOrganizationUnits>
+              <SectionNumber>0</SectionNumber>
+              <Rungs>
+                <RungEntity>
+                  <LadderElements>
+                    <LadderEntity>
+                      <ElementType>EndT</ElementType>
+                      <Row>0</Row>
+                      <Column>10</Column>
+                      <ChosenConnection>Left</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>9</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>8</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>7</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>6</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>5</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>4</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>3</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>2</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>1</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>NormalContact</ElementType>
+                      <Descriptor>%M9</Descriptor>
+                      <Comment />
+                      <Symbol>COUNTER_SENSOR</Symbol>
+                      <Row>0</Row>
+                      <Column>0</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                  </LadderElements>
+                  <InstructionLines>
+                    <InstructionLineEntity>
+                      <InstructionLine>LD    %M9</InstructionLine>
+                      <Comment />
+                    </InstructionLineEntity>
+                    <InstructionLineEntity>
+                      <InstructionLine>ENDT</InstructionLine>
+                      <Comment />
+                    </InstructionLineEntity>
+                  </InstructionLines>
+                  <Name>Tr18</Name>
+                  <MainComment />
+                  <Label />
+                  <IsLadderSelected>true</IsLadderSelected>
+                </RungEntity>
+              </Rungs>
+            </ProgramOrganizationUnits>
+            <From>54cb2c71-efc1-4ea0-bbcf-65f0bd912c88</From>
+            <To>4baf6be1-6a99-4a13-9c18-5ee489a2dce1</To>
+          </GrafcetTransition>
+          <GrafcetTransition>
+            <Id>c5db9c4b-e84b-42c0-b9bb-87586186e1bc</Id>
+            <Row>17</Row>
+            <Column>2</Column>
+            <ProgramOrganizationUnits>
+              <SectionNumber>0</SectionNumber>
+              <Rungs>
+                <RungEntity>
+                  <LadderElements>
+                    <LadderEntity>
+                      <ElementType>EndT</ElementType>
+                      <Row>0</Row>
+                      <Column>10</Column>
+                      <ChosenConnection>Left</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>9</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>8</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>7</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>6</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>5</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>4</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>3</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>Line</ElementType>
+                      <Row>0</Row>
+                      <Column>2</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>NegatedContact</ElementType>
+                      <Descriptor>%M5</Descriptor>
+                      <Comment />
+                      <Symbol>ENTRY_SENSOR</Symbol>
+                      <Row>0</Row>
+                      <Column>0</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                    <LadderEntity>
+                      <ElementType>NegatedContact</ElementType>
+                      <Descriptor>%M8</Descriptor>
+                      <Comment />
+                      <Symbol>EXIT_SENSOR</Symbol>
+                      <Row>0</Row>
+                      <Column>1</Column>
+                      <ChosenConnection>Left, Right</ChosenConnection>
+                    </LadderEntity>
+                  </LadderElements>
+                  <InstructionLines>
+                    <InstructionLineEntity>
+                      <InstructionLine>LDN   %M5</InstructionLine>
+                      <Comment />
+                    </InstructionLineEntity>
+                    <InstructionLineEntity>
+                      <InstructionLine>ANDN  %M8</InstructionLine>
+                      <Comment />
+                    </InstructionLineEntity>
+                    <InstructionLineEntity>
+                      <InstructionLine>ENDT</InstructionLine>
+                      <Comment />
+                    </InstructionLineEntity>
+                  </InstructionLines>
+                  <Name>Tr19</Name>
+                  <MainComment />
+                  <Label />
+                  <IsLadderSelected>true</IsLadderSelected>
+                </RungEntity>
+              </Rungs>
+            </ProgramOrganizationUnits>
+            <From>4baf6be1-6a99-4a13-9c18-5ee489a2dce1</From>
+            <To>e1564edb-914f-48ca-b894-dac4f43a9e10</To>
+          </GrafcetTransition>
         </Elements>
       </GrafcetPou>
       <ProgramOrganizationUnits>
         <Name>Actions</Name>
-        <SectionNumber>20</SectionNumber>
+        <SectionNumber>21</SectionNumber>
         <Rungs>
           <RungEntity>
             <LadderElements>
@@ -2241,12 +2361,31 @@
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
                 <Column>1</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%X19</Descriptor>
+                <Comment />
+                <Symbol>STATE_19</Symbol>
+                <Row>1</Row>
+                <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>1</Row>
+                <Column>1</Column>
+                <ChosenConnection>Up, Left</ChosenConnection>
               </LadderEntity>
             </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
                 <InstructionLine>LD    %X2</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>OR    %X19</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -2651,7 +2790,7 @@
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Operation</ElementType>
-                <OperationExpression>%MW8 := REAL_TO_INT( 100.0 * 4.8 )</OperationExpression>
+                <OperationExpression>%MW8 := REAL_TO_INT( 100.0 * 3.0 )</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -2711,7 +2850,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MW8 := REAL_TO_INT ( 100.0 * 4.8 ) ]</InstructionLine>
+                <InstructionLine>[ %MW8 := REAL_TO_INT ( 100.0 * 3.0 ) ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -2744,7 +2883,7 @@
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
                 <Column>9</Column>
-                <ChosenConnection>Down, Left, Right</ChosenConnection>
+                <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
@@ -2762,7 +2901,7 @@
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
                 <Column>6</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
@@ -2795,19 +2934,70 @@
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>Coil</ElementType>
-                <Descriptor>%M19</Descriptor>
+                <ElementType>Operation</ElementType>
                 <Comment />
-                <Symbol>MIDDLE_CONVEYOR</Symbol>
+                <Symbol />
+                <OperationExpression>%MW6 := REAL_TO_INT( 100.0 * 5.0 )</OperationExpression>
                 <Row>1</Row>
-                <Column>10</Column>
+                <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Operation</ElementType>
+                <Comment />
+                <Symbol />
+                <OperationExpression>%MW7 := REAL_TO_INT( 100.0 * 5.0 )</OperationExpression>
+                <Row>2</Row>
+                <Column>9</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Operation</ElementType>
+                <Comment />
+                <Symbol />
+                <OperationExpression>%MW8 := 0</OperationExpression>
+                <Row>3</Row>
+                <Column>9</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>1</Row>
+                <Column>8</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>2</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>3</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%TM0.Q</Descriptor>
+                <Comment />
+                <Symbol>TIM_TO_UNGRAB.Q</Symbol>
+                <Row>1</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>VerticalLine</ElementType>
                 <Row>1</Row>
-                <Column>9</Column>
+                <Column>6</Column>
                 <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>None</ElementType>
+                <Row>3</Row>
+                <Column>6</Column>
+                <ChosenConnection>None</ChosenConnection>
               </LadderEntity>
             </LadderElements>
             <InstructionLines>
@@ -2816,11 +3006,31 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
+                <InstructionLine>MPS</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
                 <InstructionLine>R     %M21</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M19</InstructionLine>
+                <InstructionLine>MPP</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   %TM0.Q</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>[ %MW6 := REAL_TO_INT ( 100.0 * 5.0 ) ]</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>[ %MW7 := REAL_TO_INT ( 100.0 * 5.0 ) ]</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>[ %MW8 := 0 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -3055,7 +3265,7 @@
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
-                <OperationExpression>%MW11 := REAL_TO_INT( 100.0 * 4.8 )</OperationExpression>
+                <OperationExpression>%MW11 := REAL_TO_INT( 100.0 * 3.0 )</OperationExpression>
                 <Row>1</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -3079,7 +3289,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MW11 := REAL_TO_INT ( 100.0 * 4.8 ) ]</InstructionLine>
+                <InstructionLine>[ %MW11 := REAL_TO_INT ( 100.0 * 3.0 ) ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -3515,11 +3725,120 @@
             <Label />
             <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
+          <RungEntity>
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%X19</Descriptor>
+                <Comment />
+                <Symbol>STATE_19</Symbol>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Coil</ElementType>
+                <Descriptor>%M19</Descriptor>
+                <Comment />
+                <Symbol>MIDDLE_CONVEYOR</Symbol>
+                <Row>0</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>9</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>2</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%X9</Descriptor>
+                <Comment />
+                <Symbol>STATE_9</Symbol>
+                <Row>1</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>1</Row>
+                <Column>1</Column>
+                <ChosenConnection>Up, Left</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD    %X19</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>OR    %X9</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ST    %M19</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>true</IsLadderSelected>
+          </RungEntity>
         </Rungs>
       </ProgramOrganizationUnits>
       <ProgramOrganizationUnits>
         <Name>Buttons</Name>
-        <SectionNumber>21</SectionNumber>
+        <SectionNumber>22</SectionNumber>
         <Rungs>
           <RungEntity>
             <LadderElements>
@@ -3865,7 +4184,7 @@
       </ProgramOrganizationUnits>
       <ProgramOrganizationUnits>
         <Name>Timers and Counters</Name>
-        <SectionNumber>22</SectionNumber>
+        <SectionNumber>23</SectionNumber>
         <Rungs>
           <RungEntity>
             <LadderElements>
@@ -3901,6 +4220,56 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>LD    %X12</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>IN</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>END_BLK</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>true</IsLadderSelected>
+          </RungEntity>
+          <RungEntity>
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%X9</Descriptor>
+                <Comment />
+                <Symbol>STATE_9</Symbol>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Timer</ElementType>
+                <Descriptor>%TM0</Descriptor>
+                <Comment />
+                <Symbol>TIM_TO_UNGRAB</Symbol>
+                <Row>0</Row>
+                <Column>2</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>BLK   %TM0</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>LD    %X9</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -4073,7 +4442,7 @@
       </ProgramOrganizationUnits>
       <ProgramOrganizationUnits>
         <Name>Initial conditions</Name>
-        <SectionNumber>23</SectionNumber>
+        <SectionNumber>24</SectionNumber>
         <Rungs>
           <RungEntity>
             <LadderElements>
@@ -4186,6 +4555,51 @@
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M3</Descriptor>
+                <Comment />
+                <Symbol>EMERGENCY_BUTTON</Symbol>
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>3</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>4</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>5</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>6</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>7</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>8</Row>
+                <Column>8</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
@@ -4213,84 +4627,69 @@
                 <ChosenConnection>Left</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>8</Column>
-                <ChosenConnection>Up, Down, Left, Right</ChosenConnection>
+                <ElementType>ResetCoil</ElementType>
+                <Descriptor>%M21</Descriptor>
+                <Comment />
+                <Symbol>GRAB_1</Symbol>
+                <Row>6</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>ResetCoil</ElementType>
+                <Descriptor>%M22</Descriptor>
+                <Comment />
+                <Symbol>GRAB_2</Symbol>
+                <Row>7</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Coil</ElementType>
+                <Descriptor>%M30</Descriptor>
+                <Comment />
+                <Symbol>PALLET</Symbol>
+                <Row>8</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Coil</ElementType>
+                <Descriptor>%M31</Descriptor>
+                <Comment />
+                <Symbol>ENTRY</Symbol>
+                <Row>9</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>VerticalLine</ElementType>
-                <Row>4</Row>
-                <Column>8</Column>
-                <ChosenConnection>Up, Down, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>VerticalLine</ElementType>
-                <Row>5</Row>
+                <Row>9</Row>
                 <Column>8</Column>
                 <ChosenConnection>Up, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%X10</Descriptor>
-                <Comment />
-                <Symbol>STATE_10</Symbol>
-                <Row>3</Row>
-                <Column>0</Column>
+                <ElementType>Line</ElementType>
+                <Row>9</Row>
+                <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>2</Column>
+                <Row>8</Row>
+                <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>3</Column>
+                <Row>7</Row>
+                <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>4</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>6</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>3</Row>
-                <Column>7</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M3</Descriptor>
-                <Comment />
-                <Symbol>EMERGENCY_BUTTON</Symbol>
-                <Row>0</Row>
-                <Column>1</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M3</Descriptor>
-                <Comment />
-                <Symbol>EMERGENCY_BUTTON</Symbol>
-                <Row>3</Row>
-                <Column>1</Column>
+                <Row>6</Row>
+                <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
             </LadderElements>
@@ -4301,18 +4700,6 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>AND   %M3</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>OR(   %X10</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>AND   %M3</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>)</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -4339,129 +4726,20 @@
                 <InstructionLine>[ %MW11 := 0 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
-            </InstructionLines>
-            <Name />
-            <MainComment />
-            <Label />
-            <IsLadderSelected>true</IsLadderSelected>
-          </RungEntity>
-          <RungEntity>
-            <LadderElements>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>2</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>3</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>4</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>6</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>7</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>8</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>9</Column>
-                <ChosenConnection>Down, Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>VerticalLine</ElementType>
-                <Descriptor />
-                <Row>1</Row>
-                <Column>9</Column>
-                <ChosenConnection>Up, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>ResetCoil</ElementType>
-                <Descriptor>%M21</Descriptor>
-                <Comment />
-                <Symbol>GRAB_1</Symbol>
-                <Row>0</Row>
-                <Column>10</Column>
-                <ChosenConnection>Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>ResetCoil</ElementType>
-                <Descriptor>%M22</Descriptor>
-                <Comment />
-                <Symbol>GRAB_2</Symbol>
-                <Row>1</Row>
-                <Column>10</Column>
-                <ChosenConnection>Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%X1</Descriptor>
-                <Comment />
-                <Symbol>STATE_1</Symbol>
-                <Row>0</Row>
-                <Column>0</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M3</Descriptor>
-                <Comment />
-                <Symbol>EMERGENCY_BUTTON</Symbol>
-                <Row>0</Row>
-                <Column>1</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-            </LadderElements>
-            <InstructionLines>
-              <InstructionLineEntity>
-                <InstructionLine>LD    %X1</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>AND   %M3</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>R     %M21</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>R     %M22</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ST    %M30</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ST    %M31</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -4474,7 +4752,7 @@
       </ProgramOrganizationUnits>
       <ProgramOrganizationUnits>
         <Name>Lights and warnings</Name>
-        <SectionNumber>24</SectionNumber>
+        <SectionNumber>25</SectionNumber>
         <Rungs>
           <RungEntity>
             <LadderElements>
@@ -5238,6 +5516,16 @@
         <Address>%M29</Address>
         <Index>29</Index>
         <Symbol>ALARM</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M30</Address>
+        <Index>30</Index>
+        <Symbol>PALLET</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M31</Address>
+        <Index>31</Index>
+        <Symbol>ENTRY</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M100</Address>
@@ -6492,9 +6780,9 @@
       <TimerTM>
         <Address>%TM0</Address>
         <Index>0</Index>
-        <Symbol>TIME_OF_OPERATION</Symbol>
-        <Preset>10</Preset>
-        <Base>OneSecond</Base>
+        <Symbol>TIM_TO_UNGRAB</Symbol>
+        <Preset>1</Preset>
+        <Base>OneHundredMilliSeconds</Base>
       </TimerTM>
       <TimerTM>
         <Address>%TM1</Address>
@@ -6506,7 +6794,7 @@
       <TimerTM>
         <Address>%TM2</Address>
         <Index>2</Index>
-        <Comment>Syren time </Comment>
+        <Comment> </Comment>
         <Type>TOF</Type>
         <Preset>30</Preset>
         <Base>OneSecond</Base>
