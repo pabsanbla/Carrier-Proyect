@@ -1,0 +1,4 @@
+"https://www.vinca.es/en/2016/04/anti-roll-load-control-for-bridge-crane/" 
+"https://www.scirp.org/journal/paperinformation?paperid=6153" 
+"https://www.sciencedirect.com/science/article/pii/S1697791207702121" 
+"https://github.com/namangupta98/Controller-for-Crane-System/tree/master" 
