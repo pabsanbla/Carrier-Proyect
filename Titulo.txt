@@ -1,2 +1,2 @@
-"Control inteligente de grs industriales: aplicaci de lica borrosa en la automatizaci de tareas de carga" 
-"Estudio y aplicaci de la lica borrosa en el control de sistemas mec爊icos: caso de estudio de una gr industrial" 
+"Control inteligente de gr煤as industriales: aplicaci贸n de l贸gica borrosa en la automatizaci贸n de tareas de carga" 
+"Estudio y aplicaci贸n de la l贸gica borrosa en el control de sistemas mec谩nicos: caso de estudio de una gr煤a industrial" 
