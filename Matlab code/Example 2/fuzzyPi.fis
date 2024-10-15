@@ -16,9 +16,9 @@ Name='error'
 Range=[-60 60]
 NumMFs=5
 MF1='NG':'gaussmf',[20 -60]
-MF2='NP':'gaussmf',[25 -25]
+MF2='NP':'gaussmf',[20 -30]
 MF3='Z':'gaussmf',[3 -2.22e-16]
-MF4='PP':'gaussmf',[25 25]
+MF4='PP':'gaussmf',[20 30]
 MF5='PG':'gaussmf',[20 60]
 
 [Input2]
@@ -35,11 +35,11 @@ MF5='PG':'gaussmf',[10.62 60]
 Name='Voltage'
 Range=[-12 12]
 NumMFs=5
-MF1='NG':'gaussmf',[4 -12]
+MF1='NG':'gaussmf',[3 -12]
 MF2='NP':'gaussmf',[3 -5]
 MF3='ZR':'gaussmf',[0.5 -5.551e-17]
 MF4='PP':'gaussmf',[3 5]
-MF5='PG':'gaussmf',[4 12]
+MF5='PG':'gaussmf',[3 12]
 
 [Rules]
 1 1, 1 (1) : 1

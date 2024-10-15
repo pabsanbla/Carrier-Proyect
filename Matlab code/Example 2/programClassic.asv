@@ -1,0 +1,16 @@
+%% Program 
+function programClassic
+    %Initialize variables of control
+    [Kp, Ki] = cohenCoonPIVar();
+    %Adjust
+    Kp = Kp/2;
+    Ki = Ki;
+    %simulation
+    to
+    sim('simPIClassical.slx');
+    %Graphics
+    graphs(valuesClassic);
+    %% ts = 0.65 
+    %% erp ~= 0
+    %% over_osc = 11%
+end
