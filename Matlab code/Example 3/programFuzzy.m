@@ -1,11 +1,11 @@
-%%Program 
-%Clean and start
-close all; clc;
-%Initialize variables of system
-initValues = initialize();
-%simulation
-sim('simPIDFuzzy.slx');
-%Graphics
-graphs(values);
-%% Derivative evenly distributed and proportinal copied from PI, Ki the same as Classic
-%% ts = 0.65 erp ~= 0
+%% Program fuzzy
+function programFuzzy
+    %simulation
+    sim('simPIDFuzzy.slx');
+    assignin('base', 'valuesFuzzy', values);
+    %Graphics
+    graphs(values, 'Fuzzy Controller');
+    %% ts = 0.8
+    %% erp ~= 0
+    %% over_os = 12.5%
+end
