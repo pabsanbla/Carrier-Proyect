@@ -1,0 +1,73 @@
+[System]
+Name='PID'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=25
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Error'
+Range=[-100 100]
+NumMFs=5
+MF1='NL':'gaussmf',[17.69 -100]
+MF2='NS':'gaussmf',[17.69 -50]
+MF3='ZE':'gaussmf',[17.69 4.441e-16]
+MF4='PS':'gaussmf',[17.69 50]
+MF5='PL':'gaussmf',[17.69 100]
+
+[Input2]
+Name='devError'
+Range=[-100 100]
+NumMFs=5
+MF1='NL':'gaussmf',[17.69 -100]
+MF2='NS':'gaussmf',[17.69 -50]
+MF3='ZR':'gaussmf',[17.69 4.441e-16]
+MF4='PS':'gaussmf',[17.69 50]
+MF5='PL':'gaussmf',[17.69 100]
+
+[Output1]
+Name='u'
+Range=[-200 200]
+NumMFs=9
+MF1='NVL':'gaussmf',[17.69 -200]
+MF2='NL':'gaussmf',[17.69 -150]
+MF3='NM':'gaussmf',[17.69 -100]
+MF4='NS':'gaussmf',[17.69 -50]
+MF5='Z':'gaussmf',[17.69 4.441e-16]
+MF6='PS':'gaussmf',[17.69 50]
+MF7='PM':'gaussmf',[17.69 100]
+MF8='PL':'gaussmf',[17.69 150]
+MF9='PVL':'gaussmf',[17.69 200]
+
+[Rules]
+1 1, 1 (1) : 1
+2 1, 2 (1) : 1
+3 1, 3 (1) : 1
+4 1, 4 (1) : 1
+5 1, 5 (1) : 1
+1 2, 2 (1) : 1
+2 2, 3 (1) : 1
+3 2, 4 (1) : 1
+4 2, 5 (1) : 1
+5 2, 6 (1) : 1
+1 3, 3 (1) : 1
+2 3, 4 (1) : 1
+3 3, 5 (1) : 1
+4 3, 6 (1) : 1
+5 3, 7 (1) : 1
+1 4, 4 (1) : 1
+2 4, 5 (1) : 1
+3 4, 6 (1) : 1
+4 4, 7 (1) : 1
+5 4, 8 (1) : 1
+1 5, 5 (1) : 1
+2 5, 6 (1) : 1
+3 5, 7 (1) : 1
+4 5, 8 (1) : 1
+5 5, 9 (1) : 1
