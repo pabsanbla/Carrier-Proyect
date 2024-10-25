@@ -1,8 +1,8 @@
 %% Comparision
 clc; close all;
 [tsim, T] = siminit;
-% program_fuzzy(T);
-% program_classic;
+program_fuzzy(T);
+program_classic;
 %% Values  
 ref = PID.signals.values(:, 1);
 %Fuzzy values
