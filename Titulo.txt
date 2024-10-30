@@ -1,2 +1,0 @@
-"Control inteligente de grúas industriales: aplicación de lógica borrosa en la automatización de tareas de carga" 
-"Estudio y aplicación de la lógica borrosa en el control de sistemas mecánicos: caso de estudio de una grúa industrial" 
