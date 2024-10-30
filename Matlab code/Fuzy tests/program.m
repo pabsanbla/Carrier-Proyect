@@ -1,5 +1,5 @@
 %% Program Fuzzy
-clc; close all;
+clc; close all, bdclose('all');
 %Variables
 m_vect = [5, 10, 2];
 %Initialize

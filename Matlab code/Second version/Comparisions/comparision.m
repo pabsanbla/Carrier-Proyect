@@ -1,5 +1,5 @@
 %% Comparision
-clc; close all;
+clc; close all; bdclose('all');
 [tsim, T] = siminit;
 program_fuzzy;
 program_classic;

@@ -1,5 +1,5 @@
 %% Comparision
-clc; close all;
+clc; close all; bdclose('all');
 [tsim, T] = siminit;
 program_fuzzy;
 program_classic;
@@ -15,16 +15,16 @@ pid_angle = PID.signals.values(:, 3);
 pid_error = PID.signals.values(:, 4);
 %Graphs
 figure();
-subplot(3,1,1); plot(t, ref, ...
-                     t, pid_val, ...
-                     t, fuzzy_val, 'LineWidth', 1.5);
-grid();xlabel('Time (s)');ylabel('Posiction (m)');legend('Ref','Fuzzy','PID');
-subplot(3,1,2); plot(t, pid_angle, ...
-                     t, fuzzy_angle, 'LineWidth', 2);
-grid();xlabel('Time (s)');ylabel('Angle (rad)');legend('Fuzzy','PID');
-subplot(3,1,3); plot(t, pid_error, ...
-                     t, fuzzy_error, 'LineWidth', 1.5);
-grid();xlabel('Time (s)');ylabel('Error (m)');legend('Fuzzy','PID');
+subplot(3,1,1); plot(t, ref, 'r', ...
+                     t, pid_val, 'b', ...
+                     t, fuzzy_val, 'k', 'LineWidth', 1.5);
+grid();xlabel('Time (s)');ylabel('Posiction (m)');legend('Ref','PID','Fuzzy');
+subplot(3,1,2); plot(t, pid_angle, 'c', ...
+                     t, fuzzy_angle, 'g', 'LineWidth', 2);
+grid();xlabel('Time (s)');ylabel('Angle (rad)');legend('PID','Fuzzy');
+subplot(3,1,3); plot(t, pid_error, 'y', ...
+                     t, fuzzy_error, 'm', 'LineWidth', 1.5);
+grid();xlabel('Time (s)');ylabel('Error (m)');legend('PID','Fuzzy');
 sgtitle('Comparision');
 
 
