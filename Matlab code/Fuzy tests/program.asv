@@ -1,8 +1,14 @@
-%% Program
+%% Program Fuzzy
 clc; close all;
+%Variables
+l = [1, 3, 0.5];
+m = [5, 10, 2];
 %Initialize
-[tsim, T, force] = siminit;
-sim('model_sim.slx');
-figure();
-subplot(2,1,1);plot(t, values(:, 1));
-subplot(2,1,2);plot(t, values(:, 3));
+[tsim, T] = siminit;
+for i = 1 : 2
+    for j = 1 : 3
+        sim('model_sim_fuzzy.slx');
+    
+    end
+end
+

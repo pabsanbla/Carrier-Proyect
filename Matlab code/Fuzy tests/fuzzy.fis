@@ -49,11 +49,11 @@ MF5='PL':'gaussmf',[0.085 0.2618]
 Name='force'
 Range=[-200 200]
 NumMFs=5
-MF1='NL':'gaussmf',[40 -200]
-MF2='NM':'gaussmf',[40 -100]
-MF3='ZR':'gaussmf',[40 8.882e-16]
-MF4='PM':'gaussmf',[40 100]
-MF5='PL':'gaussmf',[40 200]
+MF1='NL':'gaussmf',[50 -200]
+MF2='NM':'gaussmf',[45 -100]
+MF3='ZR':'gaussmf',[35 8.882e-16]
+MF4='PM':'gaussmf',[45 100]
+MF5='PL':'gaussmf',[50 200]
 
 [Rules]
 7 -6 0, 4 (1) : 1
