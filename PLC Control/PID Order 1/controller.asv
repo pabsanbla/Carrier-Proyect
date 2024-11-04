@@ -1,0 +1,9 @@
+function [u] = controller(error)
+    global m;
+    error = error * 1000;
+    error = round(error);
+    write(m, 'holdingregs', 1, error); %write in the PLC
+    pause(0.01);
+    ui = read(m, 'holdingregs', 101, 1); %read of the controller
+    u = ui / 100;
+end
