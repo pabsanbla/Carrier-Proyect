@@ -4,7 +4,7 @@ Type='mamdani'
 Version=2.0
 NumInputs=3
 NumOutputs=1
-NumRules=25
+NumRules=26
 AndMethod='min'
 OrMethod='max'
 ImpMethod='min'
@@ -15,13 +15,13 @@ DefuzzMethod='centroid'
 Name='error'
 Range=[-3 3]
 NumMFs=7
-MF1='NL':'gaussmf',[0.3539 -3]
-MF2='NM':'gaussmf',[0.3539 -2]
-MF3='NS':'gaussmf',[0.3539 -1]
-MF4='ZR':'gaussmf',[0.3539 -2.776e-17]
-MF5='PS':'gaussmf',[0.3539 1]
-MF6='PM':'gaussmf',[0.3539 2]
-MF7='PL':'gaussmf',[0.3539 3]
+MF1='NL':'gaussmf',[0.365 -3]
+MF2='NM':'gaussmf',[0.365 -2]
+MF3='NS':'gaussmf',[0.365 -1]
+MF4='ZR':'gaussmf',[0.365 -2.776e-17]
+MF5='PS':'gaussmf',[0.365 1]
+MF6='PM':'gaussmf',[0.365 2]
+MF7='PL':'gaussmf',[0.365 3]
 
 [Input2]
 Name='velocity'
@@ -49,11 +49,11 @@ MF5='PL':'gaussmf',[0.085 0.2618]
 Name='force'
 Range=[-200 200]
 NumMFs=5
-MF1='NL':'gaussmf',[40 -200]
-MF2='NM':'gaussmf',[40 -100]
-MF3='ZR':'gaussmf',[40 8.882e-16]
-MF4='PM':'gaussmf',[40 100]
-MF5='PL':'gaussmf',[40 200]
+MF1='NL':'gaussmf',[50 -200]
+MF2='NM':'gaussmf',[45 -100]
+MF3='ZR':'gaussmf',[35 8.882e-16]
+MF4='PM':'gaussmf',[45 100]
+MF5='PL':'gaussmf',[50 200]
 
 [Rules]
 7 -6 0, 4 (1) : 1
@@ -81,3 +81,4 @@ MF5='PL':'gaussmf',[40 200]
 3 6 0, 1 (1) : 1
 0 0 1, 1 (1) : 1
 0 0 5, 5 (1) : 1
+1 -2 0, 2 (1) : 1
