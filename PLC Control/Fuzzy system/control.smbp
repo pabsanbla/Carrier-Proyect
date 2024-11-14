@@ -2128,7 +2128,7 @@
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
-                <OperationExpression>%MF121 := EXP( %MF118 / %MF115 )</OperationExpression>
+                <OperationExpression>%MF121 := EXP( %MF115 / %MF118 )</OperationExpression>
                 <Row>2</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -2148,7 +2148,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MF121 := EXP ( %MF118 / %MF115 ) ]</InstructionLine>
+                <InstructionLine>[ %MF121 := EXP ( %MF115 / %MF118 ) ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -3148,7 +3148,7 @@
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Comparison</ElementType>
-                <ComparisonExpression>%MF64 &lt; 1.0 / %MF121</ComparisonExpression>
+                <ComparisonExpression>%MF64 &lt; 1.0 - %MF121</ComparisonExpression>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -3167,7 +3167,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND   [ %MF64 &lt; 1.0 / %MF121 ]</InstructionLine>
+                <InstructionLine>AND   [ %MF64 &lt; 1.0 - %MF121 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -3184,14 +3184,14 @@
             <LadderElements>
               <LadderEntity>
                 <ElementType>Comparison</ElementType>
-                <ComparisonExpression>%MF64 &gt; 1.0 / %MF121</ComparisonExpression>
+                <ComparisonExpression>%MF64 &gt; 1.0 - %MF121</ComparisonExpression>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Operation</ElementType>
-                <OperationExpression>%MF181 := 1.0 / %MF121</OperationExpression>
+                <OperationExpression>%MF181 := 1.0 - %MF121</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -3245,11 +3245,11 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND   [ %MF64 &gt; 1.0 / %MF121 ]</InstructionLine>
+                <InstructionLine>AND   [ %MF64 &gt; 1.0 - %MF121 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MF181 := 1.0 / %MF121 ]</InstructionLine>
+                <InstructionLine>[ %MF181 := 1.0 - %MF121 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -5712,7 +5712,7 @@
                 <ElementType>Comparison</ElementType>
                 <Comment />
                 <Symbol />
-                <ComparisonExpression>%MF10 &lt; 1.0 / %MF85</ComparisonExpression>
+                <ComparisonExpression>%MF10 &lt; 1.0 - %MF85</ComparisonExpression>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -5733,7 +5733,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND   [ %MF10 &lt; 1.0 / %MF85 ]</InstructionLine>
+                <InstructionLine>AND   [ %MF10 &lt; 1.0 - %MF85 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -5752,7 +5752,7 @@
                 <ElementType>Comparison</ElementType>
                 <Comment />
                 <Symbol />
-                <ComparisonExpression>%MF10 &gt; 1.0 / %MF85</ComparisonExpression>
+                <ComparisonExpression>%MF10 &gt; 1.0 - %MF85</ComparisonExpression>
                 <Row>0</Row>
                 <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -5761,7 +5761,7 @@
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
-                <OperationExpression>%MF223 := 1.0 / %MF85</OperationExpression>
+                <OperationExpression>%MF223 := 1.0 - %MF85</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -5829,11 +5829,11 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND   [ %MF10 &gt; 1.0 / %MF85 ]</InstructionLine>
+                <InstructionLine>AND   [ %MF10 &gt; 1.0 - %MF85 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MF223 := 1.0 / %MF85 ]</InstructionLine>
+                <InstructionLine>[ %MF223 := 1.0 - %MF85 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -7923,67 +7923,74 @@
           <RungEntity>
             <LadderElements>
               <LadderEntity>
-                <ElementType>Operation</ElementType>
-                <OperationExpression>%MW503 := REAL_TO_INT( %MF283 / %MF301 )</OperationExpression>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%I0.0</Descriptor>
+                <Comment />
                 <Row>0</Row>
-                <Column>9</Column>
-                <ChosenConnection>Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>8</Column>
+                <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
+                <Descriptor />
                 <Row>0</Row>
-                <Column>7</Column>
+                <Column>1</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>6</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>4</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>3</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
+                <Descriptor />
                 <Row>0</Row>
                 <Column>2</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
+                <Descriptor />
                 <Row>0</Row>
-                <Column>1</Column>
+                <Column>3</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%I0.0</Descriptor>
-                <Comment />
-                <Symbol />
+                <ElementType>Line</ElementType>
+                <Descriptor />
                 <Row>0</Row>
-                <Column>0</Column>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Operation</ElementType>
+                <OperationExpression>%MW503 := REAL_TO_INT( %MF283 / %MF301 )</OperationExpression>
+                <Row>0</Row>
+                <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
             </LadderElements>
@@ -9384,7 +9391,7 @@
     </FastTask>
     <MastTask>
       <UsePeriodScanMode>true</UsePeriodScanMode>
-      <PeriodScan>100</PeriodScan>
+      <PeriodScan>10</PeriodScan>
     </MastTask>
     <CpuBehavior>
       <StartingMode>StartAsPreviousState</StartingMode>
