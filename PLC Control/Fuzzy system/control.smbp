@@ -150,7 +150,7 @@
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
-                <OperationExpression>%MF1 := INT_TO_REAL( %MW500 ) / 100.0</OperationExpression>
+                <OperationExpression>%MF1 := INT_TO_REAL( %MW500 ) / %KF1</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -216,7 +216,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MF1 := INT_TO_REAL ( %MW500 ) / 100.0 ]</InstructionLine>
+                <InstructionLine>[ %MF1 := INT_TO_REAL ( %MW500 ) / %KF1 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -1218,7 +1218,7 @@
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
-                <OperationExpression>%MF67 := INT_TO_REAL( %MW501 ) / 100.0</OperationExpression>
+                <OperationExpression>%MF67 := INT_TO_REAL( %MW501 ) / %KF1</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -1302,7 +1302,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MF67 := INT_TO_REAL ( %MW501 ) / 100.0 ]</InstructionLine>
+                <InstructionLine>[ %MF67 := INT_TO_REAL ( %MW501 ) / %KF1 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -2304,7 +2304,7 @@
                 <ElementType>Operation</ElementType>
                 <Comment />
                 <Symbol />
-                <OperationExpression>%MF133 := INT_TO_REAL( %MW502 ) / 100.0</OperationExpression>
+                <OperationExpression>%MF133 := INT_TO_REAL( %MW502 ) / %KF1</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -2388,7 +2388,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MF133 := INT_TO_REAL ( %MW502 ) / 100.0 ]</InstructionLine>
+                <InstructionLine>[ %MF133 := INT_TO_REAL ( %MW502 ) / %KF1 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -7988,7 +7988,7 @@
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Operation</ElementType>
-                <OperationExpression>%MW503 := REAL_TO_INT( %MF283 / %MF301 )</OperationExpression>
+                <OperationExpression>%MW503 := REAL_TO_INT( (%MF283 / %MF301) * %KF4 )</OperationExpression>
                 <Row>0</Row>
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -8000,7 +8000,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>[ %MW503 := REAL_TO_INT ( %MF283 / %MF301 ) ]</InstructionLine>
+                <InstructionLine>[ %MW503 := REAL_TO_INT ( ( %MF283 / %MF301 ) * %KF4 ) ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -8015,7 +8015,9 @@
     <Subroutines />
     <WatchLists />
     <CustomSymbols />
-    <ConstantWordsMemoryAllocation />
+    <ConstantWordsMemoryAllocation>
+      <ForcedCount>6</ForcedCount>
+    </ConstantWordsMemoryAllocation>
     <MemoryBitsMemoryAllocation>
       <Allocation>Manual</Allocation>
       <ForcedCount>512</ForcedCount>
@@ -9360,9 +9362,64 @@
         <Symbol>DEN</Symbol>
       </MemoryFloat>
     </MemoryFloats>
-    <ConstantWords />
-    <ConstantDoubleWords />
-    <ConstantMemoryFloats />
+    <ConstantWords>
+      <ConstantWord>
+        <Address>%KW2</Address>
+        <Index>2</Index>
+        <Value>17530</Value>
+      </ConstantWord>
+      <ConstantWord>
+        <Address>%KW5</Address>
+        <Index>5</Index>
+        <Value>17096</Value>
+      </ConstantWord>
+    </ConstantWords>
+    <ConstantDoubleWords>
+      <ConstantDoubleWord>
+        <Address>%KD1</Address>
+        <Index>1</Index>
+        <Value>1148846080</Value>
+      </ConstantDoubleWord>
+      <ConstantDoubleWord>
+        <Address>%KD2</Address>
+        <Index>2</Index>
+        <Value>17530</Value>
+      </ConstantDoubleWord>
+      <ConstantDoubleWord>
+        <Address>%KD4</Address>
+        <Index>4</Index>
+        <Value>1120403456</Value>
+      </ConstantDoubleWord>
+      <ConstantDoubleWord>
+        <Address>%KD5</Address>
+        <Index>5</Index>
+        <Value>17096</Value>
+      </ConstantDoubleWord>
+    </ConstantDoubleWords>
+    <ConstantMemoryFloats>
+      <ConstantFloat>
+        <Address>%KF1</Address>
+        <Index>1</Index>
+        <Symbol>F_CONV</Symbol>
+        <Value>1000</Value>
+      </ConstantFloat>
+      <ConstantFloat>
+        <Address>%KF2</Address>
+        <Index>2</Index>
+        <Value>2.456476E-41</Value>
+      </ConstantFloat>
+      <ConstantFloat>
+        <Address>%KF4</Address>
+        <Index>4</Index>
+        <Symbol>CONV_OUTPUT</Symbol>
+        <Value>100</Value>
+      </ConstantFloat>
+      <ConstantFloat>
+        <Address>%KF5</Address>
+        <Index>5</Index>
+        <Value>2.39566E-41</Value>
+      </ConstantFloat>
+    </ConstantMemoryFloats>
     <Timers />
     <Counters />
     <FastCounters />
