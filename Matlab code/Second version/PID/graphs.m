@@ -16,5 +16,5 @@ function graphs(t, values)
     xlabel('Time (s)');ylabel('Position(m)');grid();legend('Error');
     subplot(4,1,4);plot(t, angle, 'c-', 'LineWidth', 2);
     xlabel('Time (s)');ylabel('Angle (rad)');grid();legend('Theta');
-    sgtitle('PID with compensator');
+    sgtitle('PID-PI');
 end
