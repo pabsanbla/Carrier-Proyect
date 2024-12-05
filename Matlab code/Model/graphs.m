@@ -1,22 +1,21 @@
-function graphs(i, j, t, values)
+function graphs(t, values)
+    pos = [values(:,1), values(:,5)];
+    vel = [values(:,2), values(:,6)];
+    angle = [values(:,3), values(:,7)];
+    d_angle = [values(:,4), values(:,8)];
+    %Graphs
     figure();
-    force = [5, 1, 0.2];
-    L = [0.5, 0.3, 0.2];
-    m = [1.5, 0.8, 0.3];
-    if i == 1
-        mesg = sprintf('Force = %.1f N', force(j));
-        subplot(1,2,1);plot(t, values(:, 1), 'r-', 'LineWidth', 2);legend(mesg);
-        subplot(1,2,2);plot(t, values(:, 3), 'k-', 'LineWidth', 1.5);legend(mesg);
-        sgtitle('Force changes');
-    elseif i == 2
-        mesg = sprintf('L = %.1f N', force(j));
-        subplot(1,2,1);plot(t, values(:, 1), 'r-', 'LineWidth', 2);legend(mesg);
-        subplot(1,2,2);plot(t, values(:, 3), 'k-', 'LineWidth', 1.5);legend(mesg);
-        sgtitle('Rope changes');
-    else
-        mesg = sprintf('m = %.1f N', force(j));
-        subplot(1,2,1);plot(t, values(:, 1), 'r-', 'LineWidth', 2);legend(mesg);
-        subplot(1,2,2);plot(t, values(:, 3), 'k-', 'LineWidth', 1.5);legend(mesg);
-        sgtitle('Mass changes');
-    end
+    subplot(4,1,1);plot(t, pos(:,1), 'r-', ...
+                        t, pos(:,2), 'b-', 'LineWidth', 1.5);
+    xlabel('Time (s)');ylabel('Position (m)');grid();legend('Model', 'TF');
+    subplot(4,1,2);plot(t, vel(:,1), 'r-', ...
+                        t, vel(:,2), 'b-', 'LineWidth', 1.5);
+    xlabel('Time (s)');ylabel('Vel (m/s)');grid();legend('Model', 'TF');
+    subplot(4,1,3);plot(t, angle(:,1), 'r-', ...
+                        t, angle(:,2), 'b-', 'LineWidth', 1.5);
+    xlabel('Time (s)');ylabel('Angle (rad)');grid();legend('Model', 'TF');
+    subplot(4,1,4);plot(t, d_angle(:,1), 'r-', ...
+                        t, d_angle(:,2), 'b-', 'LineWidth', 1.5);
+    xlabel('Time (s)');ylabel('Angular velocity (rad/s)');grid();legend('Model', 'TF');
+    sgtitle('Model comparision');
 end
