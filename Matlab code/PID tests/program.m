@@ -4,8 +4,8 @@ clc; close all, bdclose('all');
 m_vect = [5, 10, 2];
 %Initialize
 [tsim, T] = siminit;
-Kp = [2, 9.46];
-Ki = [0.01, 0.282];
+Kp = [1.1, 9.46];
+Ki = [0.005, 0.282];
 Kd = 1.5;
 tam = [0 : T : tsim];
 changes = zeros(length(tam), 5, 3);
