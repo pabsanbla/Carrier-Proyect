@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProjectDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ProjectVersion>2.7.0.0</ProjectVersion>
+  <ProjectVersion>2.9.0.0</ProjectVersion>
   <ManagementLevel>FunctLevelMan18_0</ManagementLevel>
   <Name>Prototype 3</Name>
   <FullName>C:\Users\usuario\Documents\Carrier-Proyect\PLC programs\Prototypes\Prototype 3.smbp</FullName>
@@ -12,7 +12,7 @@
         <SectionNumber>0</SectionNumber>
         <Elements>
           <GrafcetNodeStep>
-            <Id>d41b191a-0da8-455b-8a12-792261e8a056</Id>
+            <Id>6d560cfa-3d2d-4936-8af0-c45707993e2a</Id>
             <Row>0</Row>
             <Column>1</Column>
             <IsInitialStep>true</IsInitialStep>
@@ -22,11 +22,11 @@
               <Rungs />
               <StepNumber>1</StepNumber>
             </StepPou>
-            <From>6a844cc2-e1ed-4e9e-bf51-bf3ebefbc50c</From>
-            <To>522be1cd-9e31-4e7a-b863-e6039a66f0c3</To>
+            <From>080270b7-e99b-40de-92cb-0684b0cccd36</From>
+            <To>c3f4c975-f692-4278-9bc6-0004d8f787cb</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>bb04764a-b40e-4f5e-b442-0f9daa6bc36c</Id>
+            <Id>3c5dfa98-e0fb-47c8-b0c3-5e3b632b6e3c</Id>
             <Row>1</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -36,11 +36,11 @@
               <Rungs />
               <StepNumber>2</StepNumber>
             </StepPou>
-            <From>5505bf49-d773-43a4-9672-d4692bcd48ff</From>
-            <To>4f5b9001-9bdb-4908-b749-51c07ad75c38</To>
+            <From>a47fba2a-4d1b-4cbf-b4da-a1d502ddb2bb</From>
+            <To>4cd2ec60-6be8-48c4-99c2-a9a3a2c06104</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>5505bf49-d773-43a4-9672-d4692bcd48ff</Id>
+            <Id>a47fba2a-4d1b-4cbf-b4da-a1d502ddb2bb</Id>
             <Row>0</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -156,11 +156,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>522be1cd-9e31-4e7a-b863-e6039a66f0c3</From>
-            <To>bb04764a-b40e-4f5e-b442-0f9daa6bc36c</To>
+            <From>c3f4c975-f692-4278-9bc6-0004d8f787cb</From>
+            <To>3c5dfa98-e0fb-47c8-b0c3-5e3b632b6e3c</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>767eaf48-4f95-4469-94e0-c419616eec27</Id>
+            <Id>99212830-9ec8-4aa6-b2f4-35ca4b2647e8</Id>
             <Row>1</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -170,11 +170,11 @@
               <Rungs />
               <StepNumber>3</StepNumber>
             </StepPou>
-            <From>47b468ac-fa14-44e8-b7ad-98ae00b3bc00</From>
-            <To>0e96314d-d958-4e26-85d1-8ab08f297d8b</To>
+            <From>b1ec4e08-9f27-43d3-8ac8-77e5b5da742b</From>
+            <To>207c4573-2c45-43fd-bc11-d7157356a534</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>46182bde-5bf0-4fc7-b0f3-ad473d8d84eb</Id>
+            <Id>70d30f8c-e834-43dd-be59-96e27672858f</Id>
             <Row>1</Row>
             <Column>3</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -184,11 +184,11 @@
               <Rungs />
               <StepNumber>4</StepNumber>
             </StepPou>
-            <From>a464c0de-9527-4f9a-a05e-e643ecb742e6</From>
-            <To>5eabdc66-61be-4491-92a5-8c21bf22efde</To>
+            <From>ab533ab5-d89a-44b0-a6da-1b10e5c44ecb</From>
+            <To>7d43999a-c2ea-4f74-a2b6-45faeb0c60be</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>47b468ac-fa14-44e8-b7ad-98ae00b3bc00</Id>
+            <Id>b1ec4e08-9f27-43d3-8ac8-77e5b5da742b</Id>
             <Row>0</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -304,18 +304,18 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>522be1cd-9e31-4e7a-b863-e6039a66f0c3</From>
-            <To>767eaf48-4f95-4469-94e0-c419616eec27</To>
+            <From>c3f4c975-f692-4278-9bc6-0004d8f787cb</From>
+            <To>99212830-9ec8-4aa6-b2f4-35ca4b2647e8</To>
           </GrafcetTransition>
           <GrafcetOrFork>
-            <Id>522be1cd-9e31-4e7a-b863-e6039a66f0c3</Id>
-            <To>5505bf49-d773-43a4-9672-d4692bcd48ff</To>
-            <To>47b468ac-fa14-44e8-b7ad-98ae00b3bc00</To>
-            <To>a464c0de-9527-4f9a-a05e-e643ecb742e6</To>
-            <From>d41b191a-0da8-455b-8a12-792261e8a056</From>
+            <Id>c3f4c975-f692-4278-9bc6-0004d8f787cb</Id>
+            <To>a47fba2a-4d1b-4cbf-b4da-a1d502ddb2bb</To>
+            <To>b1ec4e08-9f27-43d3-8ac8-77e5b5da742b</To>
+            <To>ab533ab5-d89a-44b0-a6da-1b10e5c44ecb</To>
+            <From>6d560cfa-3d2d-4936-8af0-c45707993e2a</From>
           </GrafcetOrFork>
           <GrafcetTransition>
-            <Id>a464c0de-9527-4f9a-a05e-e643ecb742e6</Id>
+            <Id>ab533ab5-d89a-44b0-a6da-1b10e5c44ecb</Id>
             <Row>0</Row>
             <Column>3</Column>
             <ProgramOrganizationUnits>
@@ -431,11 +431,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>522be1cd-9e31-4e7a-b863-e6039a66f0c3</From>
-            <To>46182bde-5bf0-4fc7-b0f3-ad473d8d84eb</To>
+            <From>c3f4c975-f692-4278-9bc6-0004d8f787cb</From>
+            <To>70d30f8c-e834-43dd-be59-96e27672858f</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>89abf4ad-232a-494c-b3d4-ad51e31ee0ff</Id>
+            <Id>31254c94-a6e0-4b5b-8438-a90200f813f9</Id>
             <Row>2</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -445,11 +445,11 @@
               <Rungs />
               <StepNumber>5</StepNumber>
             </StepPou>
-            <From>59a03c12-6b2b-4d38-a2e2-665ed16ef79f</From>
-            <To>905ce467-9b96-463c-a642-1628ae47c739</To>
+            <From>7c230e25-7a00-42ed-a61b-2fd85fc03266</From>
+            <To>9ed82cf6-3eff-4224-9216-a7f1101d6e87</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>4f5b9001-9bdb-4908-b749-51c07ad75c38</Id>
+            <Id>4cd2ec60-6be8-48c4-99c2-a9a3a2c06104</Id>
             <Row>1</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -546,11 +546,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>bb04764a-b40e-4f5e-b442-0f9daa6bc36c</From>
-            <To>59a03c12-6b2b-4d38-a2e2-665ed16ef79f</To>
+            <From>3c5dfa98-e0fb-47c8-b0c3-5e3b632b6e3c</From>
+            <To>7c230e25-7a00-42ed-a61b-2fd85fc03266</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>0e96314d-d958-4e26-85d1-8ab08f297d8b</Id>
+            <Id>207c4573-2c45-43fd-bc11-d7157356a534</Id>
             <Row>1</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -647,18 +647,18 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>767eaf48-4f95-4469-94e0-c419616eec27</From>
-            <To>59a03c12-6b2b-4d38-a2e2-665ed16ef79f</To>
+            <From>99212830-9ec8-4aa6-b2f4-35ca4b2647e8</From>
+            <To>7c230e25-7a00-42ed-a61b-2fd85fc03266</To>
           </GrafcetTransition>
           <GrafcetOrJunction>
-            <Id>59a03c12-6b2b-4d38-a2e2-665ed16ef79f</Id>
-            <From>4f5b9001-9bdb-4908-b749-51c07ad75c38</From>
-            <From>0e96314d-d958-4e26-85d1-8ab08f297d8b</From>
-            <From>5eabdc66-61be-4491-92a5-8c21bf22efde</From>
-            <To>89abf4ad-232a-494c-b3d4-ad51e31ee0ff</To>
+            <Id>7c230e25-7a00-42ed-a61b-2fd85fc03266</Id>
+            <From>4cd2ec60-6be8-48c4-99c2-a9a3a2c06104</From>
+            <From>207c4573-2c45-43fd-bc11-d7157356a534</From>
+            <From>7d43999a-c2ea-4f74-a2b6-45faeb0c60be</From>
+            <To>31254c94-a6e0-4b5b-8438-a90200f813f9</To>
           </GrafcetOrJunction>
           <GrafcetTransition>
-            <Id>5eabdc66-61be-4491-92a5-8c21bf22efde</Id>
+            <Id>7d43999a-c2ea-4f74-a2b6-45faeb0c60be</Id>
             <Row>1</Row>
             <Column>3</Column>
             <ProgramOrganizationUnits>
@@ -755,11 +755,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>46182bde-5bf0-4fc7-b0f3-ad473d8d84eb</From>
-            <To>59a03c12-6b2b-4d38-a2e2-665ed16ef79f</To>
+            <From>70d30f8c-e834-43dd-be59-96e27672858f</From>
+            <To>7c230e25-7a00-42ed-a61b-2fd85fc03266</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>facbfe86-c308-459b-8dee-432cce4996f2</Id>
+            <Id>cb633ac6-63e6-4965-a365-2728c028640c</Id>
             <Row>3</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -769,11 +769,11 @@
               <Rungs />
               <StepNumber>6</StepNumber>
             </StepPou>
-            <From>905ce467-9b96-463c-a642-1628ae47c739</From>
-            <To>2e301ff6-95d4-475c-84ba-deeca7b65b85</To>
+            <From>9ed82cf6-3eff-4224-9216-a7f1101d6e87</From>
+            <To>3b9f19f2-0e6e-41d1-89f9-68fb58a54507</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>905ce467-9b96-463c-a642-1628ae47c739</Id>
+            <Id>9ed82cf6-3eff-4224-9216-a7f1101d6e87</Id>
             <Row>2</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -878,11 +878,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>89abf4ad-232a-494c-b3d4-ad51e31ee0ff</From>
-            <To>facbfe86-c308-459b-8dee-432cce4996f2</To>
+            <From>31254c94-a6e0-4b5b-8438-a90200f813f9</From>
+            <To>cb633ac6-63e6-4965-a365-2728c028640c</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>07847f86-e206-471c-833c-3f2a0f9ff2e6</Id>
+            <Id>31a76828-adf3-4bc2-8a09-fba73af3ab9e</Id>
             <Row>4</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -892,11 +892,11 @@
               <Rungs />
               <StepNumber>7</StepNumber>
             </StepPou>
-            <From>2e301ff6-95d4-475c-84ba-deeca7b65b85</From>
-            <To>06ac62ad-0ebb-41a5-a0c9-7915ffec9c9a</To>
+            <From>3b9f19f2-0e6e-41d1-89f9-68fb58a54507</From>
+            <To>b9de0449-ee2e-4d5b-a6c6-8b870f74f33d</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>2e301ff6-95d4-475c-84ba-deeca7b65b85</Id>
+            <Id>3b9f19f2-0e6e-41d1-89f9-68fb58a54507</Id>
             <Row>3</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -994,11 +994,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>facbfe86-c308-459b-8dee-432cce4996f2</From>
-            <To>07847f86-e206-471c-833c-3f2a0f9ff2e6</To>
+            <From>cb633ac6-63e6-4965-a365-2728c028640c</From>
+            <To>31a76828-adf3-4bc2-8a09-fba73af3ab9e</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>d8ac351d-eec1-47a3-8370-cdd487b6e4b2</Id>
+            <Id>29006f05-7c70-423e-a589-fc5c57d06742</Id>
             <Row>5</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1008,11 +1008,11 @@
               <Rungs />
               <StepNumber>8</StepNumber>
             </StepPou>
-            <From>06ac62ad-0ebb-41a5-a0c9-7915ffec9c9a</From>
-            <To>6426dd32-4fa0-442c-b7ad-bbe320a0e515</To>
+            <From>b9de0449-ee2e-4d5b-a6c6-8b870f74f33d</From>
+            <To>e067a5b3-b445-467a-80e3-c66b2b8a3428</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>06ac62ad-0ebb-41a5-a0c9-7915ffec9c9a</Id>
+            <Id>b9de0449-ee2e-4d5b-a6c6-8b870f74f33d</Id>
             <Row>4</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1120,11 +1120,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>07847f86-e206-471c-833c-3f2a0f9ff2e6</From>
-            <To>d8ac351d-eec1-47a3-8370-cdd487b6e4b2</To>
+            <From>31a76828-adf3-4bc2-8a09-fba73af3ab9e</From>
+            <To>29006f05-7c70-423e-a589-fc5c57d06742</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>ecc23bb5-be8a-4a7f-9a74-6c553d47b731</Id>
+            <Id>d33b9385-fe29-4719-a6a0-63def4a9059b</Id>
             <Row>6</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1134,11 +1134,11 @@
               <Rungs />
               <StepNumber>9</StepNumber>
             </StepPou>
-            <From>6426dd32-4fa0-442c-b7ad-bbe320a0e515</From>
-            <To>77943605-d463-42fb-b0dd-9545a7fa5de2</To>
+            <From>e067a5b3-b445-467a-80e3-c66b2b8a3428</From>
+            <To>d11b23dc-3660-4908-896f-a50101745f3a</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>6426dd32-4fa0-442c-b7ad-bbe320a0e515</Id>
+            <Id>e067a5b3-b445-467a-80e3-c66b2b8a3428</Id>
             <Row>5</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1243,11 +1243,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>d8ac351d-eec1-47a3-8370-cdd487b6e4b2</From>
-            <To>ecc23bb5-be8a-4a7f-9a74-6c553d47b731</To>
+            <From>29006f05-7c70-423e-a589-fc5c57d06742</From>
+            <To>d33b9385-fe29-4719-a6a0-63def4a9059b</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>cb04bd6c-f622-4cc0-b815-81cf16f25438</Id>
+            <Id>590fd42c-8d23-499c-ab1f-734ce4fa178d</Id>
             <Row>7</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1257,11 +1257,11 @@
               <Rungs />
               <StepNumber>10</StepNumber>
             </StepPou>
-            <From>1217badf-5289-4424-86ce-8fd78411f0f4</From>
-            <To>4f14a659-496b-42fe-912c-b5b744688e95</To>
+            <From>6d98c5f1-e82b-4efb-8f4d-d2a507feb865</From>
+            <To>87e71590-3fc9-47e1-a8c4-c8848639fe8c</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>77943605-d463-42fb-b0dd-9545a7fa5de2</Id>
+            <Id>d11b23dc-3660-4908-896f-a50101745f3a</Id>
             <Row>6</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1363,11 +1363,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>ecc23bb5-be8a-4a7f-9a74-6c553d47b731</From>
-            <To>1217badf-5289-4424-86ce-8fd78411f0f4</To>
+            <From>d33b9385-fe29-4719-a6a0-63def4a9059b</From>
+            <To>6d98c5f1-e82b-4efb-8f4d-d2a507feb865</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>9abc4f6a-7d3e-419f-a214-0d91bec344d1</Id>
+            <Id>ac507a26-d3f9-4f4a-bb55-ffcab6bd53dd</Id>
             <Row>8</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1377,11 +1377,11 @@
               <Rungs />
               <StepNumber>11</StepNumber>
             </StepPou>
-            <From>4f14a659-496b-42fe-912c-b5b744688e95</From>
-            <To>5b25d5a4-2baa-485c-aee7-732916d2ba1f</To>
+            <From>87e71590-3fc9-47e1-a8c4-c8848639fe8c</From>
+            <To>d4f37b85-0934-4dde-8617-ec59ab6d3f7b</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>4f14a659-496b-42fe-912c-b5b744688e95</Id>
+            <Id>87e71590-3fc9-47e1-a8c4-c8848639fe8c</Id>
             <Row>7</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1490,11 +1490,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>cb04bd6c-f622-4cc0-b815-81cf16f25438</From>
-            <To>9abc4f6a-7d3e-419f-a214-0d91bec344d1</To>
+            <From>590fd42c-8d23-499c-ab1f-734ce4fa178d</From>
+            <To>ac507a26-d3f9-4f4a-bb55-ffcab6bd53dd</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>81f3deaa-92ee-4ddb-a250-a9f97fa27a83</Id>
+            <Id>6cc697d6-e53b-41bf-b59d-494134b85cfa</Id>
             <Row>9</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1504,11 +1504,11 @@
               <Rungs />
               <StepNumber>12</StepNumber>
             </StepPou>
-            <From>f750fa04-1074-4b02-9667-71737907032b</From>
-            <To>8335ceb3-dc51-4634-a713-9c160380e678</To>
+            <From>c6abc0ec-f7b0-4aa3-acf0-5073e9cc41c6</From>
+            <To>007129ce-7a87-45e8-a87c-aeaaba8d63e8</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>f750fa04-1074-4b02-9667-71737907032b</Id>
+            <Id>c6abc0ec-f7b0-4aa3-acf0-5073e9cc41c6</Id>
             <Row>8</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1617,11 +1617,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>5b25d5a4-2baa-485c-aee7-732916d2ba1f</From>
-            <To>81f3deaa-92ee-4ddb-a250-a9f97fa27a83</To>
+            <From>d4f37b85-0934-4dde-8617-ec59ab6d3f7b</From>
+            <To>6cc697d6-e53b-41bf-b59d-494134b85cfa</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>761a171d-e6da-46c1-90da-acaa4b934417</Id>
+            <Id>c3bccc10-e20c-47a0-a301-534b35f121a9</Id>
             <Row>8</Row>
             <Column>0</Column>
             <ProgramOrganizationUnits>
@@ -1730,23 +1730,23 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>5b25d5a4-2baa-485c-aee7-732916d2ba1f</From>
-            <To>1217badf-5289-4424-86ce-8fd78411f0f4</To>
+            <From>d4f37b85-0934-4dde-8617-ec59ab6d3f7b</From>
+            <To>6d98c5f1-e82b-4efb-8f4d-d2a507feb865</To>
           </GrafcetTransition>
           <GrafcetOrFork>
-            <Id>5b25d5a4-2baa-485c-aee7-732916d2ba1f</Id>
-            <To>f750fa04-1074-4b02-9667-71737907032b</To>
-            <To>761a171d-e6da-46c1-90da-acaa4b934417</To>
-            <From>9abc4f6a-7d3e-419f-a214-0d91bec344d1</From>
+            <Id>d4f37b85-0934-4dde-8617-ec59ab6d3f7b</Id>
+            <To>c6abc0ec-f7b0-4aa3-acf0-5073e9cc41c6</To>
+            <To>c3bccc10-e20c-47a0-a301-534b35f121a9</To>
+            <From>ac507a26-d3f9-4f4a-bb55-ffcab6bd53dd</From>
           </GrafcetOrFork>
           <GrafcetOrJunction>
-            <Id>1217badf-5289-4424-86ce-8fd78411f0f4</Id>
-            <From>77943605-d463-42fb-b0dd-9545a7fa5de2</From>
-            <From>761a171d-e6da-46c1-90da-acaa4b934417</From>
-            <To>cb04bd6c-f622-4cc0-b815-81cf16f25438</To>
+            <Id>6d98c5f1-e82b-4efb-8f4d-d2a507feb865</Id>
+            <From>d11b23dc-3660-4908-896f-a50101745f3a</From>
+            <From>c3bccc10-e20c-47a0-a301-534b35f121a9</From>
+            <To>590fd42c-8d23-499c-ab1f-734ce4fa178d</To>
           </GrafcetOrJunction>
           <GrafcetNodeStep>
-            <Id>041e3d51-2971-46c5-8e0a-618291702339</Id>
+            <Id>615faa23-9be4-40d2-8fb3-a4753b4bc562</Id>
             <Row>10</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1756,11 +1756,11 @@
               <Rungs />
               <StepNumber>13</StepNumber>
             </StepPou>
-            <From>8335ceb3-dc51-4634-a713-9c160380e678</From>
-            <To>27cfb6d3-762f-47b3-ae4f-c8722e72eee2</To>
+            <From>007129ce-7a87-45e8-a87c-aeaaba8d63e8</From>
+            <To>b8a89a27-a0b6-4336-a5f7-387acade0bd2</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>8335ceb3-dc51-4634-a713-9c160380e678</Id>
+            <Id>007129ce-7a87-45e8-a87c-aeaaba8d63e8</Id>
             <Row>9</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1862,11 +1862,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>81f3deaa-92ee-4ddb-a250-a9f97fa27a83</From>
-            <To>041e3d51-2971-46c5-8e0a-618291702339</To>
+            <From>6cc697d6-e53b-41bf-b59d-494134b85cfa</From>
+            <To>615faa23-9be4-40d2-8fb3-a4753b4bc562</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>016dde6b-bbcf-418e-a921-77f1ce9c8976</Id>
+            <Id>734817d0-ae3f-40df-86af-ddc32a7325d7</Id>
             <Row>11</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1876,11 +1876,11 @@
               <Rungs />
               <StepNumber>14</StepNumber>
             </StepPou>
-            <From>27cfb6d3-762f-47b3-ae4f-c8722e72eee2</From>
-            <To>51cbd699-de8d-45c7-8add-5ebc92404772</To>
+            <From>b8a89a27-a0b6-4336-a5f7-387acade0bd2</From>
+            <To>529b3610-0bb6-4db1-ab48-a60b40bcd133</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>27cfb6d3-762f-47b3-ae4f-c8722e72eee2</Id>
+            <Id>b8a89a27-a0b6-4336-a5f7-387acade0bd2</Id>
             <Row>10</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -1977,11 +1977,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>041e3d51-2971-46c5-8e0a-618291702339</From>
-            <To>016dde6b-bbcf-418e-a921-77f1ce9c8976</To>
+            <From>615faa23-9be4-40d2-8fb3-a4753b4bc562</From>
+            <To>734817d0-ae3f-40df-86af-ddc32a7325d7</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>79b0af66-e63d-4cf0-ad0f-0b70e74bae97</Id>
+            <Id>c3bff89b-8439-42e4-a704-496e661be417</Id>
             <Row>12</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -1991,11 +1991,11 @@
               <Rungs />
               <StepNumber>15</StepNumber>
             </StepPou>
-            <From>51cbd699-de8d-45c7-8add-5ebc92404772</From>
-            <To>fda6fd6b-4bff-485c-9c83-a946ba997029</To>
+            <From>529b3610-0bb6-4db1-ab48-a60b40bcd133</From>
+            <To>69924988-5e30-4e3c-8f59-4afcda8da3b1</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>51cbd699-de8d-45c7-8add-5ebc92404772</Id>
+            <Id>529b3610-0bb6-4db1-ab48-a60b40bcd133</Id>
             <Row>11</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -2100,11 +2100,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>016dde6b-bbcf-418e-a921-77f1ce9c8976</From>
-            <To>79b0af66-e63d-4cf0-ad0f-0b70e74bae97</To>
+            <From>734817d0-ae3f-40df-86af-ddc32a7325d7</From>
+            <To>c3bff89b-8439-42e4-a704-496e661be417</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>dbee1666-9521-48e4-bcb7-6b89ead16759</Id>
+            <Id>00d6551f-be0e-4571-9314-f1b6f9b5225f</Id>
             <Row>13</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -2114,11 +2114,11 @@
               <Rungs />
               <StepNumber>16</StepNumber>
             </StepPou>
-            <From>fda6fd6b-4bff-485c-9c83-a946ba997029</From>
-            <To>7be6bb4d-75a9-4316-a958-7e2884a7add9</To>
+            <From>69924988-5e30-4e3c-8f59-4afcda8da3b1</From>
+            <To>ce39e443-915a-44b8-89f1-c1637483f7ef</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>fda6fd6b-4bff-485c-9c83-a946ba997029</Id>
+            <Id>69924988-5e30-4e3c-8f59-4afcda8da3b1</Id>
             <Row>12</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -2216,11 +2216,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>79b0af66-e63d-4cf0-ad0f-0b70e74bae97</From>
-            <To>dbee1666-9521-48e4-bcb7-6b89ead16759</To>
+            <From>c3bff89b-8439-42e4-a704-496e661be417</From>
+            <To>00d6551f-be0e-4571-9314-f1b6f9b5225f</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>fc5b80b0-5102-4499-aa24-d6c5206d66c2</Id>
+            <Id>65eb7143-c2e1-4c0d-bdd0-441fca3072e8</Id>
             <Row>14</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -2230,11 +2230,11 @@
               <Rungs />
               <StepNumber>17</StepNumber>
             </StepPou>
-            <From>04100f87-d752-4ab8-bd24-0cd914e25b4f</From>
-            <To>b3e8fe79-8e64-4d6f-9e16-da28d39a9e03</To>
+            <From>f527f112-89f5-4082-b8e7-3540e8c6f476</From>
+            <To>4704cd0e-0263-44f5-9a39-f5ddda2144f0</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>f0e95089-ef7a-48dc-8dbc-a97ba2de0935</Id>
+            <Id>69cd150e-bfba-452a-b031-5e8492d2699d</Id>
             <Row>14</Row>
             <Column>2</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -2244,11 +2244,11 @@
               <Rungs />
               <StepNumber>18</StepNumber>
             </StepPou>
-            <From>c428b59a-7587-4792-9dbb-b111a778d903</From>
-            <To>65bdc0be-0184-437e-a368-15bc6bf2848c</To>
+            <From>64950136-81c9-492c-940f-329b8abfbedc</From>
+            <To>b2ec74e7-11be-4f37-ad63-bd22333421ef</To>
           </GrafcetNodeStep>
           <GrafcetNodeStep>
-            <Id>29fd1ef7-2995-4f9c-993a-c9874ecaf701</Id>
+            <Id>3c4e3905-4c0a-4b7d-8189-2057674ddd50</Id>
             <Row>14</Row>
             <Column>3</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -2258,11 +2258,11 @@
               <Rungs />
               <StepNumber>19</StepNumber>
             </StepPou>
-            <From>4cf841b7-cc1d-4c19-99f7-d6870ff75f67</From>
-            <To>38f06280-8997-422a-9676-571be691db48</To>
+            <From>7ae00737-6ee5-45ff-946c-38e6c86e9bd3</From>
+            <To>0fd1848d-ce16-41a3-ba5e-72473feca3a5</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>04100f87-d752-4ab8-bd24-0cd914e25b4f</Id>
+            <Id>f527f112-89f5-4082-b8e7-3540e8c6f476</Id>
             <Row>13</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -2371,11 +2371,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>7be6bb4d-75a9-4316-a958-7e2884a7add9</From>
-            <To>fc5b80b0-5102-4499-aa24-d6c5206d66c2</To>
+            <From>ce39e443-915a-44b8-89f1-c1637483f7ef</From>
+            <To>65eb7143-c2e1-4c0d-bdd0-441fca3072e8</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>c428b59a-7587-4792-9dbb-b111a778d903</Id>
+            <Id>64950136-81c9-492c-940f-329b8abfbedc</Id>
             <Row>13</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -2484,18 +2484,18 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>7be6bb4d-75a9-4316-a958-7e2884a7add9</From>
-            <To>f0e95089-ef7a-48dc-8dbc-a97ba2de0935</To>
+            <From>ce39e443-915a-44b8-89f1-c1637483f7ef</From>
+            <To>69cd150e-bfba-452a-b031-5e8492d2699d</To>
           </GrafcetTransition>
           <GrafcetOrFork>
-            <Id>7be6bb4d-75a9-4316-a958-7e2884a7add9</Id>
-            <To>04100f87-d752-4ab8-bd24-0cd914e25b4f</To>
-            <To>c428b59a-7587-4792-9dbb-b111a778d903</To>
-            <To>4cf841b7-cc1d-4c19-99f7-d6870ff75f67</To>
-            <From>dbee1666-9521-48e4-bcb7-6b89ead16759</From>
+            <Id>ce39e443-915a-44b8-89f1-c1637483f7ef</Id>
+            <To>f527f112-89f5-4082-b8e7-3540e8c6f476</To>
+            <To>64950136-81c9-492c-940f-329b8abfbedc</To>
+            <To>7ae00737-6ee5-45ff-946c-38e6c86e9bd3</To>
+            <From>00d6551f-be0e-4571-9314-f1b6f9b5225f</From>
           </GrafcetOrFork>
           <GrafcetTransition>
-            <Id>4cf841b7-cc1d-4c19-99f7-d6870ff75f67</Id>
+            <Id>7ae00737-6ee5-45ff-946c-38e6c86e9bd3</Id>
             <Row>13</Row>
             <Column>3</Column>
             <ProgramOrganizationUnits>
@@ -2604,11 +2604,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>7be6bb4d-75a9-4316-a958-7e2884a7add9</From>
-            <To>29fd1ef7-2995-4f9c-993a-c9874ecaf701</To>
+            <From>ce39e443-915a-44b8-89f1-c1637483f7ef</From>
+            <To>3c4e3905-4c0a-4b7d-8189-2057674ddd50</To>
           </GrafcetTransition>
           <GrafcetNodeStep>
-            <Id>d0cd9129-c4b4-4efc-95ff-452f4b3477e7</Id>
+            <Id>d4eeb915-b746-49ac-a990-0be626fe9a19</Id>
             <Row>15</Row>
             <Column>1</Column>
             <IsInitialStep>false</IsInitialStep>
@@ -2618,11 +2618,11 @@
               <Rungs />
               <StepNumber>20</StepNumber>
             </StepPou>
-            <From>43db27d3-2f8e-4576-9cf7-56e6d1f842c7</From>
-            <To>6a844cc2-e1ed-4e9e-bf51-bf3ebefbc50c</To>
+            <From>bf8b28e5-eca2-4bb1-a997-32861701820a</From>
+            <To>080270b7-e99b-40de-92cb-0684b0cccd36</To>
           </GrafcetNodeStep>
           <GrafcetTransition>
-            <Id>b3e8fe79-8e64-4d6f-9e16-da28d39a9e03</Id>
+            <Id>4704cd0e-0263-44f5-9a39-f5ddda2144f0</Id>
             <Row>14</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -2719,11 +2719,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>fc5b80b0-5102-4499-aa24-d6c5206d66c2</From>
-            <To>43db27d3-2f8e-4576-9cf7-56e6d1f842c7</To>
+            <From>65eb7143-c2e1-4c0d-bdd0-441fca3072e8</From>
+            <To>bf8b28e5-eca2-4bb1-a997-32861701820a</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>65bdc0be-0184-437e-a368-15bc6bf2848c</Id>
+            <Id>b2ec74e7-11be-4f37-ad63-bd22333421ef</Id>
             <Row>14</Row>
             <Column>2</Column>
             <ProgramOrganizationUnits>
@@ -2820,18 +2820,18 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>f0e95089-ef7a-48dc-8dbc-a97ba2de0935</From>
-            <To>43db27d3-2f8e-4576-9cf7-56e6d1f842c7</To>
+            <From>69cd150e-bfba-452a-b031-5e8492d2699d</From>
+            <To>bf8b28e5-eca2-4bb1-a997-32861701820a</To>
           </GrafcetTransition>
           <GrafcetOrJunction>
-            <Id>43db27d3-2f8e-4576-9cf7-56e6d1f842c7</Id>
-            <From>b3e8fe79-8e64-4d6f-9e16-da28d39a9e03</From>
-            <From>65bdc0be-0184-437e-a368-15bc6bf2848c</From>
-            <From>38f06280-8997-422a-9676-571be691db48</From>
-            <To>d0cd9129-c4b4-4efc-95ff-452f4b3477e7</To>
+            <Id>bf8b28e5-eca2-4bb1-a997-32861701820a</Id>
+            <From>4704cd0e-0263-44f5-9a39-f5ddda2144f0</From>
+            <From>b2ec74e7-11be-4f37-ad63-bd22333421ef</From>
+            <From>0fd1848d-ce16-41a3-ba5e-72473feca3a5</From>
+            <To>d4eeb915-b746-49ac-a990-0be626fe9a19</To>
           </GrafcetOrJunction>
           <GrafcetTransition>
-            <Id>38f06280-8997-422a-9676-571be691db48</Id>
+            <Id>0fd1848d-ce16-41a3-ba5e-72473feca3a5</Id>
             <Row>14</Row>
             <Column>3</Column>
             <ProgramOrganizationUnits>
@@ -2928,11 +2928,11 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>29fd1ef7-2995-4f9c-993a-c9874ecaf701</From>
-            <To>43db27d3-2f8e-4576-9cf7-56e6d1f842c7</To>
+            <From>3c4e3905-4c0a-4b7d-8189-2057674ddd50</From>
+            <To>bf8b28e5-eca2-4bb1-a997-32861701820a</To>
           </GrafcetTransition>
           <GrafcetTransition>
-            <Id>6a844cc2-e1ed-4e9e-bf51-bf3ebefbc50c</Id>
+            <Id>080270b7-e99b-40de-92cb-0684b0cccd36</Id>
             <Row>15</Row>
             <Column>1</Column>
             <ProgramOrganizationUnits>
@@ -3037,8 +3037,8 @@
                 </RungEntity>
               </Rungs>
             </ProgramOrganizationUnits>
-            <From>d0cd9129-c4b4-4efc-95ff-452f4b3477e7</From>
-            <To>d41b191a-0da8-455b-8a12-792261e8a056</To>
+            <From>d4eeb915-b746-49ac-a990-0be626fe9a19</From>
+            <To>6d560cfa-3d2d-4936-8af0-c45707993e2a</To>
           </GrafcetTransition>
         </Elements>
       </GrafcetPou>
@@ -5313,13 +5313,16 @@
               <LadderEntity>
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
-                <Column>1</Column>
+                <Column>2</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>Line</ElementType>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M200</Descriptor>
+                <Comment />
+                <Symbol>OK</Symbol>
                 <Row>0</Row>
-                <Column>2</Column>
+                <Column>1</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
             </LadderElements>
@@ -5330,6 +5333,10 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M12</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   %M200</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -5412,13 +5419,16 @@
               <LadderEntity>
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
-                <Column>1</Column>
+                <Column>2</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>Line</ElementType>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M200</Descriptor>
+                <Comment />
+                <Symbol>OK</Symbol>
                 <Row>0</Row>
-                <Column>2</Column>
+                <Column>1</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
             </LadderElements>
@@ -5429,6 +5439,10 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M12</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   %M200</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -5511,13 +5525,16 @@
               <LadderEntity>
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
-                <Column>1</Column>
+                <Column>2</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
-                <ElementType>Line</ElementType>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M200</Descriptor>
+                <Comment />
+                <Symbol>OK</Symbol>
                 <Row>0</Row>
-                <Column>2</Column>
+                <Column>1</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
             </LadderElements>
@@ -5528,6 +5545,10 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M12</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   %M200</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -5957,12 +5978,42 @@
                 <ElementType>Line</ElementType>
                 <Row>0</Row>
                 <Column>1</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NegatedContact</ElementType>
+                <Descriptor>%M200</Descriptor>
+                <Comment />
+                <Symbol>OK</Symbol>
+                <Row>1</Row>
+                <Column>0</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M12</Descriptor>
+                <Comment />
+                <Symbol>RESET_BUTTON</Symbol>
+                <Row>1</Row>
+                <Column>1</Column>
+                <ChosenConnection>Up, Left</ChosenConnection>
               </LadderEntity>
             </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
                 <InstructionLine>LDN   %M3</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>OR(N  %M200</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   %M12</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>)</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -8072,7 +8123,7 @@
       <AutoSaveRamOnEeprom>true</AutoSaveRamOnEeprom>
       <WatchdogPeriod>250</WatchdogPeriod>
     </CpuBehavior>
-    <TraceTimeBase>Time5Sec</TraceTimeBase>
+    <TraceTimeBase>Time1Sec</TraceTimeBase>
     <UserFunctionPous />
     <UserFunctionBlockPous />
     <UserDefineFunctionBlocks />
