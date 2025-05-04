@@ -1,0 +1,31 @@
+%% Comparision
+clc; close all; bdclose('all');
+[tsim, T] = siminit;
+program_fuzzy;
+program_classic;
+%% Values  
+ref = PID.signals.values(:, 1);
+%Fuzzy values
+fuzzy_val = Fuzzy.signals.values(:, 2);
+fuzzy_angle = Fuzzy.signals.values(:, 3);
+fuzzy_error = Fuzzy.signals.values(:, 4);
+%PID values 
+pid_val = PID.signals.values(:, 2);
+pid_angle = PID.signals.values(:, 3);
+pid_error = PID.signals.values(:, 4);
+%Graphs
+figure();
+subplot(3,1,1); plot(t, ref, 'r', ...
+                     t, pid_val, 'b', ...
+                     t, fuzzy_val, 'k', 'LineWidth', 1.5);
+grid();xlabel('Time (s)');ylabel('Posiction (m)');legend('Ref','PID','Fuzzy');
+subplot(3,1,2); plot(t, pid_angle, 'c', ...
+                     t, fuzzy_angle, 'g', 'LineWidth', 2);
+grid();xlabel('Time (s)');ylabel('Angle (rad)');legend('PID','Fuzzy');
+subplot(3,1,3); plot(t, pid_error, 'y', ...
+                     t, fuzzy_error, 'm', 'LineWidth', 1.5);
+grid();xlabel('Time (s)');ylabel('Error (m)');legend('PID','Fuzzy');
+sgtitle('Comparision');
+
+
+
